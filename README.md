@@ -7,11 +7,11 @@ Atualmente, estou focado em CiberSegurança, aprofundando os meus conhecimentos 
 ---
 
 ### 🚀 Sobre mim
-- 🔭 Atualmente estou a trabalhar em **[Nome de um Projeto ou "Projetos pessoais"]**.
-- 🌱 Estou a aprender **[Linguagem ou Ferramenta nova]**.
-- 👯 Estou à procura de colaborar em **[Tipo de projetos open source]**.
-- 💬 Pergunte-me sobre **[Assuntos que domina, ex: Google Sheets, Redes, Hardware]**.
-- ⚡ Curiosidade: **[Um facto divertido ou hobby]**.
+- 🔭 Atualmente estou a trabalhar em **Automação de Inventário**.
+- 🌱 Estou a aprender **IDE Antigravity**.
+- 👯 Estou à procura de colaborar em **Uptime Kuma**.
+- 💬 Pergunte-me sobre **Google Sheets, Redes, Hardware**.
+- ⚡ Curiosidade: **Busco a santidade no ordinário.**.
 
 ---
 
@@ -34,10 +34,10 @@ Atualmente, estou focado em CiberSegurança, aprofundando os meus conhecimentos 
 ---
 
 ### 📫 Como me encontrar
-<a href="https://linkedin.com/in/SEU-LINKEDIN" target="_blank">
+<a href="https://linkedin.com/in/fernando-junior-1a74ab29b/?skipRedirect=true" target="_blank">
   <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
 </a> 
-<a href="mailto:SEU-EMAIL@GMAIL.COM">
+<a href="mailto:ribeirojunior270@gmail.com">
   <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" />
 </a>
 <!--
