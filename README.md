@@ -27,8 +27,8 @@ Atualmente, estou focado em CiberSegurança, aprofundando os meus conhecimentos 
 ### 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU-USUARIO&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO&layout=compact&theme=dracula"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=fernando-msa&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=dracula"/>
 </div>
 
 ---
