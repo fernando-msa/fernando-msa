@@ -1,26 +1,31 @@
-# Olá, eu sou o Fernando Santos De Santana Júnior! 👋
+# Olá, eu sou o Fernando Santos 👋
 
-Sou um Analista de Infraestrutura / Estudante de Engenharia da Computação apaixonado por tecnologia e resolução de problemas.
+**Analista de Infraestrutura | Estudante de Engenharia da Computação | Desenvolvedor em Evolução**
 
-Atualmente, estou focado em CiberSegurança, aprofundando os meus conhecimentos em cibersegurança corporativa.
+Sou um entusiasta da tecnologia que transita entre a robustez da infraestrutura e a criatividade do desenvolvimento de software. Adoro resolver problemas complexos, seja diagnosticando uma rede física ou estruturando a lógica de um novo app.
 
 ---
 
-### 🚀 Sobre mim
-- 🔭 Atualmente estou a trabalhar em **Automação de Inventário**.
-- 🌱 Estou a aprender **IDE Antigravity**.
-- 👯 Estou à procura de colaborar em **Uptime Kuma**.
-- 💬 Pergunte-me sobre **Google Sheets, Redes, Hardware**.
-- ⚡ Curiosidade: **Busco a santidade no ordinário.**.
+### 🚀 No que estou trabalhando agora
+- 🛠️ **Tradutor MSA:** Desenvolvendo uma extensão de navegador focada em tradução rápida e simples.
+- 🧟 **Survival RPG:** Brainstorming e prototipagem de um jogo 2D de sobrevivência zumbi.
+- 📊 **Automação de Dashboards:** Criando sistemas inteligentes de inventário e assistência técnica usando Google Sheets.
+- 🛡️ **Cybersecurity:** Aprofundando conhecimentos em segurança corporativa e proteção de sistemas Windows.
+
+### 🌱 Aprendizado Contínuo
+- Explorando o potencial da **IDE Google Antigravity**.
+- Aprimorando lógica de programação para desenvolvimento de jogos e extensões.
+- Otimização de serviços Windows e remoção de telemetrias desnecessárias.
 
 ---
 
 ### 🛠️ Tecnologias e Ferramentas
 
-**Linguagens e Scripting:**
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-**Ferramentas e Outros:**
-<img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" /> <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+**Desenvolvimento & Scripting:**
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+
+**Infraestrutura & Operação:**
+<img src="https://img.shields.io/badge/Windows_11-0078D6?style=for-the-badge&logo=windows-11&logoColor=white" /> <img src="https://img.shields.io/badge/Networks-000000?style=for-the-badge&logo=ethernet&logoColor=white" /> <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 
 ---
 
@@ -33,24 +38,13 @@ Atualmente, estou focado em CiberSegurança, aprofundando os meus conhecimentos 
 
 ---
 
-### 📫 Como me encontrar
-<a href="https://linkedin.com/in/fernando-junior-1a74ab29b/?skipRedirect=true" target="_blank">
-  <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+### 📫 Conecte-se comigo
+<a href="https://linkedin.com/in/fernando-junior-1a74ab29b/" target="_blank">
+  <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a> 
 <a href="mailto:ribeirojunior270@gmail.com">
-  <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" />
+  <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
-<!--
-**fernando-msa/fernando-msa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+*⚡ "Busco a santidade no ordinário através da dedicação e do trabalho bem feito."*
