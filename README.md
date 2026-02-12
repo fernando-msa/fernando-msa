@@ -31,10 +31,7 @@ Sou um entusiasta da tecnologia que transita entre a robustez da infraestrutura 
 
 ### 📊 Estatísticas do GitHub
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=fernando-msa&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=dracula"/>
-</div>
+![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=fernando-msa&show_icons=true&theme=dracula)
 
 ---
 
