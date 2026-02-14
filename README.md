@@ -48,8 +48,8 @@ Meu foco é a interseção entre **DevOps, Automação e Desenvolvimento de Soft
 ### 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=fernando-msa&show_icons=true&theme=teal&include_all_commits=true&count_private=true"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=teal"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=fernando-msa&show_icons=true&theme=teal&include_all_commits=true&count_private=true"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=teal"/>
 </div>
 
 <br/>
