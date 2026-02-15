@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://kaktos-render.vercel.app/api?type=waving&color=008080&height=220&section=header&text=Fernando%20Junior&fontSize=70&fontColor=ffffff&desc=Infrastructure%20Analyst%20%26%20Software%20Developer&descSize=20" width="100%"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=008080&center=true&vCenter=true&width=600&lines=Fernando+Junior;Analista+de+Infraestrutura;Estudante+de+Engenharia" />
 </div>
 
 <br/>
