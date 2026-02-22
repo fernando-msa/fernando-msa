@@ -35,13 +35,16 @@ Meu foco é a interseção entre **DevOps, Automação e Desenvolvimento de Soft
 
 <br/>
 
-### 🚀 Projetos em Destaque
+## 🚀 Meus Projetos Atuais
 
-| Projeto | Descrição | Stack |
-| :--- | :--- | :--- |
-| 🌐 **[Tradutor MSA - Extensão](https://github.com/fernando-msa/Tradutor-MSA-Extensao)** | Extensão de navegador leve para tradução instantânea. Foco em privacidade, performance e UX minimalista. | `JavaScript` `Chrome API` |
-| 📱 **[Movimento Auxilia App](https://github.com/fernando-msa/Movimento-Auxilia-App)** | Aplicativo mobile para gestão comunitária. Integração em tempo real e sistema de avisos. | `Flutter` `Firebase` |
-| 🔧 **Scripts de Infra (Gist)** | Automações para Windows Server e Redes. | `PowerShell` `Batch` |
+* **[Movimento Auxilia Brasil](https://github.com/fernando-msa/movimento-auxilia-brasil)** ⛪  
+  *Desenvolvimento de plataforma web para a Família Salesiana (Auxilia).*
+
+* **[Tradutor MSA](https://github.com/fernando-msa/tradutor-msa)** 🌍  
+  *Extensão de navegador para traduções rápidas (Edge & Chrome Store).*
+
+* **[Infra & Automation](https://github.com/fernando-msa)** 🛡️  
+  *Scripts PowerShell e Playbooks Ansible para Windows Server e Ubiquiti.*
 
 <br/>
 
