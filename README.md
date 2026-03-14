@@ -25,6 +25,7 @@ Meu foco é a interseção entre **Infraestrutura, Cibersegurança, Automação 
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Apps_Script-4285F4?style=for-the-badge&logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </div>
 
@@ -35,6 +36,8 @@ Meu foco é a interseção entre **Infraestrutura, Cibersegurança, Automação 
 | 🌐 **[Tradutor MSA](https://github.com/fernando-msa/Tradutor-MSA-Extensao)** | Extensão de navegador para tradução instantânea com voz, histórico e menu de contexto. **Publicada na Microsoft Edge Store.** | `JavaScript` `Manifest V3` |
 | ⛪ **[Movimento Auxilia Brasil](https://github.com/fernando-msa/movimento-auxilia-brasil)** | Plataforma web para gestão comunitária da família salesiana. Área restrita para consagrados com autenticação e painel individual. | `Next.js` `TypeScript` `Supabase` |
 | 📂 **[Bacula Log Archiver](https://github.com/fernando-msa/Bacula-Log-Archiver-Google-Apps-Scrip)** | Automação que captura logs de backup do Bacula via Gmail, converte em PDFs estilizados e organiza no Google Drive por data. | `Google Apps Script` `JavaScript` |
+| 🧾 **[NF Archiver](https://github.com/fernando-msa/NF-Archiver-Google-Apps-Script)** | Automação para arquivar notas fiscais recebidas por e-mail no Drive, organizadas por fornecedor com log de auditoria. | `Google Apps Script` `JavaScript` |
+| 📋 **[Chamados Archiver](https://github.com/fernando-msa/Chamados-Archiver-Google-Apps-Script)** | Automação que captura OS dos sistemas Rasptelles, Ksys e SMED, converte em PDFs identificados e organiza no Drive por sistema. | `Google Apps Script` `JavaScript` |
 | 🔧 **Scripts & Automação** | Automações focadas em infraestrutura corporativa, administração de Windows Server, redes e rotinas de backup. | `PowerShell` `Ansible` `Batch` |
 
 ### 📊 Estatísticas do GitHub
