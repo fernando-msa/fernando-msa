@@ -47,8 +47,12 @@ Meu foco é a interseção entre **Infraestrutura, Cibersegurança, Automação 
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=teal" alt="Linguagens mais usadas" />
 </div>
 <br/>
+
 <div align="left">
   <a href="https://www.linkedin.com/in/fernando-junior-1a74ab29b/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+  </a>
+  <a href="https://lattes.cnpq.br/6430749481990088">
+    <img src="https://img.shields.io/badge/Currículo_Lattes-1A4F9F?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAugAAALoBXD9MOgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADYSURBVCiRndIxSgNBFAbg781ms8kmIUSLgJ2NnkAEOYC9jYfwAp7AE3gBD6CdpLGwFcHCRrCwEAIBYXc3+19nZy0kZBMyMDA8Ht/MG4YFgBDiRil1nuf5RQiRlVJSSsn3fQghVFVV930PAKSU0nVdZ0SEiCillBBCFAAQY4wFgBhjEBGstRYAYK0FAIwxBgD2fQ8A6LqOMcYYY8xaC0IIKaXEObcAgHPuFAAAgHMOABAREdHW2mKtLQAQQqiqSikl5pz/AEmS3ADgnPu27xPqum4Mw/B6u91Ok5mZJEmSJEnyBKiqVHsPajJoAAAAAElFTkSuQmCC&logoColor=white" alt="Lattes Badge" />
   </a>
 </div>
