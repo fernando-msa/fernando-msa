@@ -1,99 +1,129 @@
-# 👨‍💻 Fernando Júnior
+# 👨‍💻 Fernando Santana
 
-Analista de Infraestrutura | Cloud | Automação | Desenvolvimento
+> Analista de Infraestrutura | Engenharia da Computação | Automação & Segurança
 
----
-
-## 🚀 Sobre mim
-
-Atuo na área de infraestrutura de TI com foco em ambientes corporativos críticos, suporte a sistemas essenciais e melhoria contínua de processos.
-
-Tenho ampliado minha atuação para desenvolvimento e cloud, construindo soluções que integram:
-
-* Infraestrutura
-* Automação
-* Aplicações web
-* Segurança da informação
+🚀 Transformo ambientes complexos em soluções simples, automatizadas e seguras.
 
 ---
 
-## 🧩 Especialidades
+## 🧠 Sobre mim
 
-* 🖥️ Infraestrutura e redes corporativas
-* ☁️ Cloud e ecossistema Microsoft
-* 🔐 Segurança da informação (ISO 27001 / LGPD)
-* 🤖 Automação de processos (Google Apps Script / scripts)
-* 🌐 Desenvolvimento Web (Next.js, Firebase, APIs)
+Sou Analista de Infraestrutura atuando em ambiente crítico de saúde, com foco em:
 
----
+- ⚙️ Infraestrutura corporativa (Windows Server, Linux, redes)
+- 🔐 Segurança da Informação (ISO 27001, hardening, conformidade)
+- 🤖 Automação (PowerShell, Scripts, Google Apps Script)
+- 🌐 Desenvolvimento (Next.js, TypeScript, APIs)
 
-## 🏢 Experiência prática
-
-* ✔️ Projetos aplicados em ambiente hospitalar
-* ✔️ Automação de processos operacionais (logs, e-mails, backup)
-* ✔️ Desenvolvimento de aplicações internas e dashboards
-* ✔️ Publicação de extensão para navegador
+💡 Meu diferencial:
+> Não apenas mantenho sistemas — eu automatizo, otimizo e evoluo operações.
 
 ---
 
-## 🛠️ Projetos em destaque
+## 🏆 Conquistas & Credenciais
 
-### 🔹 SecPolicy HAMA
-
-Sistema para gestão e validação de políticas de segurança da informação baseado em ISO 27001.
-
-### 🔹 Tradutor MSA
-
-Extensão de navegador com tradução por voz, histórico e menu de contexto.
-
-### 🔹 Prime Pet Platform
-
-Sistema completo com:
-
-* Formulário público
-* Portal do cliente
-* Painel administrativo
-* Integração com Firebase
-
-### 🔹 FinCtrl
-
-Aplicação web com foco em controle e organização de dados financeiros.
+- 🎓 Estudante de Engenharia da Computação
+- 🧑‍💻 Membro do GitHub Developer Program
+- ⚡ GitHub Pro ativo
+- 🧪 Experiência real com:
+  - Bacula (backup corporativo)
+  - GLPI / Ksys (gestão de chamados)
+  - Ambientes hospitalares críticos
 
 ---
 
-## ⚙️ Projetos de automação
+## 🚀 Projetos em Destaque
 
-* 📁 Bacula Log Archiver → organização automática de logs de backup
-* 📧 NF Archiver → arquivamento automático de notas fiscais
-* 🧾 Chamados Archiver → organização de chamados via Gmail
+### 🔐 SecPolicy HAMA
+Sistema de gestão de conformidade baseado na ISO 27001
+
+- ✔️ Checklist com 22 controles
+- ✔️ Score automático
+- ✔️ Relatórios em PDF
+- ✔️ Fluxo de aprovação
+
+🔗 https://github.com/fernando-msa/secpolicy-hama
 
 ---
 
-## 📚 Formação e evolução
+### 📱 MOB App (PWA)
+Aplicação para controle do ciclo (Método Billings)
 
-* 🎓 Engenharia da Computação (em andamento)
-* 📘 Foco em Cloud, Dev e Segurança
-* 🔬 Desenvolvimento contínuo de projetos práticos
+- 🔐 Autenticação com Supabase
+- 🛡️ Row Level Security (RLS)
+- 📲 Instalável como app
+
+🔗 https://github.com/fernando-msa/mob-app
+
+---
+
+### 🌎 Tradutor MSA (Extensão)
+Extensão de navegador com voz + histórico
+
+- 🎤 Entrada por voz
+- 🔊 Leitura em voz alta
+- 🧠 Tradução inteligente
+
+🔗 https://github.com/fernando-msa/Tradutor-MSA-Extensao
+
+---
+
+## ⚙️ Automação & Infra
+
+Projetos voltados para ambiente real:
+
+- 📦 Arquivamento automático de logs (Bacula)
+- 🧾 Organização de chamados e documentos
+- ☁️ Integrações com Google Workspace
+
+> Em evolução: centralização de automações em um único hub
+
+---
+
+## 🛠️ Stack
+
+### Infraestrutura
+`Windows Server` `Linux` `Redes` `Bacula`
+
+### Automação
+`PowerShell` `Google Apps Script` `Ansible`
+
+### Desenvolvimento
+`Next.js` `TypeScript` `Supabase` `Vercel`
+
+### Outros
+`Git` `REST APIs` `Tailwind`
+
+---
+
+## 📊 Estatísticas
+
+<p align="center">
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=fernando-msa&show_icons=true&theme=tokyonight"/>
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=tokyonight"/>
+</p>
 
 ---
 
 ## 🎯 Objetivo
 
-Atuar de forma híbrida entre:
+Criar soluções que:
 
-* Infraestrutura
-* Cloud
-* Desenvolvimento
-
-Criando soluções escaláveis, seguras e eficientes.
-
----
-
-## 📫 Contato
-
-* LinkedIn: https://www.linkedin.com/in/fernando-msa
-* GitHub: https://github.com/fernando-msa
+- 🔻 Reduzam esforço manual
+- 🔒 Aumentem segurança
+- ⚡ Melhorem produtividade
+- 🧩 Sejam simples e escaláveis
 
 ---
 
-⭐ Em constante evolução — tecnologia aplicada à prática
+## 🤝 Contato
+
+- 💼 LinkedIn: https://linkedin.com/in/fernando-msa
+
+---
+
+⭐ Sempre aberto a colaborar em projetos de:
+
+- Automação
+- Infraestrutura
+- Segurança da Informação
