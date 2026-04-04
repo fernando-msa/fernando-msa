@@ -6,7 +6,7 @@ Especialista em infraestrutura focado em automação e segurança corporativa. A
 
 ---
 
-### 🛠️ No que estou trabalhando este mês (Março/2026)
+### 🛠️ No que estou trabalhando atualmente
 
 * **Movimento Auxilia Brasil:** Desenvolvendo e mantendo a aplicação web oficial utilizando **Firebase** e **GitHub Actions** para CI/CD automatizado via GitHub Pages.
 * **Automação de Relatórios Bacula:** Script em Google Apps Script para processamento inteligente de logs do Bacula, transformando e-mails em PDFs estilizados no Google Drive.
