@@ -1,131 +1,131 @@
-<h1 align="center">Fernando Júnior 👨‍💻</h1>
+# Fernando Júnior
 
-<p align="center">
-  Infrastructure Analyst • Cybersecurity • Automation • DevOps Journey
-</p>
+Infrastructure Analyst • Product-minded Builder • Cybersecurity & Automation
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/fernando-msa/">
-    <img src="https://img.shields.io/badge/LinkedIn-fernando--msa-blue?style=for-the-badge&logo=linkedin">
-  </a>
-  <a href="https://github.com/fernando-msa">
-    <img src="https://img.shields.io/badge/GitHub-Portfolio-black?style=for-the-badge&logo=github">
-  </a>
-</p>
+Sou Analista de Infraestrutura com experiência prática em ambiente crítico e foco em transformar rotinas operacionais em produtos digitais mais seguros, organizados e escaláveis.
 
----
+Hoje concentro meus projetos na interseção entre:
 
-## 🚀 Sobre mim
-
-Sou Analista de Infraestrutura com atuação prática em ambientes reais (hospitalar), focado em:
-
-- 🔐 Segurança da informação
-- ⚙️ Automação de processos
-- 🏗️ Infraestrutura e governança
-- 🌐 Desenvolvimento de aplicações úteis (não só acadêmicas)
-
-Transformo rotinas operacionais em **sistemas, automações e produtos escaláveis**.
+- Infraestrutura e governança
+- Segurança da informação
+- Automação de processos
+- SaaS operacional
+- Engenharia de produto
 
 ---
 
-## 🧠 Mentalidade profissional
+## O que estou construindo
 
-- Infra + Software (não separo os dois mundos)
-- Segurança desde o design
-- Automação como padrão
-- Código com propósito real (produção > estudo)
+Desenvolvo aplicações com foco real de uso, priorizando operação, clareza de fluxo, segurança e evolução contínua.
 
----
+Minha linha atual de trabalho está voltada para:
 
-## 🔥 Projetos em destaque
-
-### 🏥 InfraCare
-Sistema de gestão de infraestrutura hospitalar com foco em operação, ativos e governança.
-
-**Stack:** Next.js • NestJS • PostgreSQL • Prisma • RBAC • JWT
+- plataformas SaaS para operação e gestão
+- sistemas com foco em SLA, conformidade e produtividade
+- produtos digitais com aplicação prática em saúde, serviços e gestão
+- automações que substituem tarefas repetitivas por processos rastreáveis
 
 ---
 
-### 🔐 SecPolicy HAMA
-Gestão de conformidade de políticas de segurança com cálculo automático e geração de relatórios.
+## Projetos em destaque
 
-**Stack:** Next.js • Firebase • TypeScript • jsPDF
+### InfraPulse
+Plataforma web para monitoramento de SLA, produtividade e risco operacional de equipes de TI.
+
+**Foco:** help desk, service desk, operação de TI, KPIs e gestão baseada em dados.  
+**Stack:** Next.js, NestJS, PostgreSQL, Prisma, JWT, Docker.
+
+### FlowDesk
+SaaS para gestão de chamados internos, checklists operacionais, não conformidades e acompanhamento de SLA.
+
+**Foco:** pequenas e médias empresas, processos internos, RBAC e governança operacional.  
+**Stack:** Next.js, TypeScript, Prisma.
+
+### Prime Pet
+Produto em evolução com migração progressiva para arquitetura mais robusta e visão SaaS multi-tenant.
+
+**Foco:** cadastro, agendamento, portal do cliente, painel administrativo e operação comercial.  
+**Destaque:** modernização sem perder a base já em uso.
+
+### SecPolicy HAMA
+Sistema de conformidade de políticas de segurança para instituições de saúde.
+
+**Foco:** checklist mensal, score de conformidade, histórico, auditoria e geração de PDF.  
+**Base:** ISO/IEC 27001 adaptada à operação.
+
+### Auxilia App
+Plataforma digital para espiritualidade, comunicação, agenda e comunidade do Movimento Auxilia.
+
+**Foco:** produto institucional, conteúdo, eventos e experiência digital orientada à comunidade.
+
+### Tradutor MSA
+Extensão de navegador leve, segura e focada em produtividade.
+
+**Foco:** tradução rápida, experiência simples e distribuição multi-browser.
 
 ---
 
-### 💸 FinCtrl v2
-Controle financeiro com arquitetura moderna, validação forte e testes.
+## Perfil de construção
 
-**Stack:** Next.js • Firebase • Zod • Recharts • Vitest • Playwright
+Tenho interesse especial por produtos que unem:
 
----
+- operação real
+- segurança desde o início
+- arquitetura evolutiva
+- documentação clara
+- experiência útil para o usuário
 
-### 📦 Bacula Log Archiver
-Automação que transforma logs de backup em evidências organizadas (PDF + Drive).
-
-**Stack:** Google Apps Script • Gmail API • PDF
-
----
-
-### 🌐 Tradutor MSA
-Extensão de navegador para tradução rápida (multi-browser).
+Não busco criar apenas “projetos de portfólio”.
+Busco construir soluções que possam evoluir para produtos reais.
 
 ---
 
-## 🧰 Tech Stack
+## Stack recorrente
 
-### 💻 Backend & Web
-![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript)
-![Node](https://img.shields.io/badge/Node.js-green?logo=node.js)
-![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js)
-![NestJS](https://img.shields.io/badge/NestJS-red?logo=nestjs)
+**Web & Backend**
+- TypeScript
+- Next.js
+- NestJS
+- Node.js
 
-### 🗄️ Banco de Dados
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue?logo=postgresql)
-![Firebase](https://img.shields.io/badge/Firebase-orange?logo=firebase)
-
-### ⚙️ DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-blue?logo=docker)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-black?logo=githubactions)
-![Vercel](https://img.shields.io/badge/Vercel-black?logo=vercel)
-
-### 🔐 Segurança & Automação
+**Dados & Auth**
+- PostgreSQL
+- Prisma
+- Firebase
 - JWT / RBAC
-- Firestore Rules
-- PowerShell
+
+**Entrega & Qualidade**
+- Docker
+- GitHub Actions
+- Testes automatizados
+- Deploy contínuo
+
+**Automação & Segurança**
 - Google Apps Script
-- ISO 27001 mindset
+- PowerShell
+- Firestore Rules
+- Princípios de ISO 27001
 
 ---
 
-## 📊 GitHub Stats
+## Direção profissional
 
-<p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=fernando-msa&show_icons=true&theme=tokyonight"/>
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=tokyonight"/>
-</p>
-
----
-
-## 🎯 Direção de carreira
-
-Construindo soluções na interseção entre:
+Estou evoluindo minha atuação para projetos e produtos ligados a:
 
 - Infraestrutura moderna
 - Cybersecurity
 - DevOps
-- Cloud
-- Engenharia de Produto
+- Automação
+- SaaS B2B
+- Governança de TI
 
 ---
 
-## 📌 Contato
+## Contato
 
-📎 LinkedIn: https://www.linkedin.com/in/fernando-msa/  
-📎 GitHub: https://github.com/fernando-msa  
+- LinkedIn: https://www.linkedin.com/in/fernando-msa/
+- GitHub: https://github.com/fernando-msa
 
 ---
 
-<p align="center">
-  <i>"Automatize o que é repetitivo, documente o que é crítico e evolua o que gera valor."</i>
-</p>
+> Automatize o que é repetitivo, estruture o que é crítico e evolua o que gera valor.
