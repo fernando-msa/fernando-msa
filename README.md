@@ -1,131 +1,111 @@
 # Fernando Júnior
 
-Infrastructure Analyst • Product-minded Builder • Cybersecurity & Automation
-
-Sou Analista de Infraestrutura com experiência prática em ambiente crítico e foco em transformar rotinas operacionais em produtos digitais mais seguros, organizados e escaláveis.
-
-Hoje concentro meus projetos na interseção entre:
-
-- Infraestrutura e governança
-- Segurança da informação
-- Automação de processos
-- SaaS operacional
-- Engenharia de produto
+Infrastructure Analyst | Building Observability & Governance Solutions for IT Operations  
+Aracaju - Brazil  
 
 ---
 
-## O que estou construindo
+## About
 
-Desenvolvo aplicações com foco real de uso, priorizando operação, clareza de fluxo, segurança e evolução contínua.
+I work with IT infrastructure in a healthcare environment, ensuring high availability, operational stability, and security of critical systems.
 
-Minha linha atual de trabalho está voltada para:
+Beyond traditional infrastructure, I design and build software solutions focused on improving IT operations through:
 
-- plataformas SaaS para operação e gestão
-- sistemas com foco em SLA, conformidade e produtividade
-- produtos digitais com aplicação prática em saúde, serviços e gestão
-- automações que substituem tarefas repetitivas por processos rastreáveis
+- Observability and operational metrics  
+- SLA monitoring and performance tracking  
+- Security governance and compliance (ISO 27001 / LGPD)  
+- Process automation and data-driven decision making  
 
----
-
-## Projetos em destaque
-
-### InfraPulse
-Plataforma web para monitoramento de SLA, produtividade e risco operacional de equipes de TI.
-
-**Foco:** help desk, service desk, operação de TI, KPIs e gestão baseada em dados.  
-**Stack:** Next.js, NestJS, PostgreSQL, Prisma, JWT, Docker.
-
-### FlowDesk
-SaaS para gestão de chamados internos, checklists operacionais, não conformidades e acompanhamento de SLA.
-
-**Foco:** pequenas e médias empresas, processos internos, RBAC e governança operacional.  
-**Stack:** Next.js, TypeScript, Prisma.
-
-### Prime Pet
-Produto em evolução com migração progressiva para arquitetura mais robusta e visão SaaS multi-tenant.
-
-**Foco:** cadastro, agendamento, portal do cliente, painel administrativo e operação comercial.  
-**Destaque:** modernização sem perder a base já em uso.
-
-### SecPolicy HAMA
-Sistema de conformidade de políticas de segurança para instituições de saúde.
-
-**Foco:** checklist mensal, score de conformidade, histórico, auditoria e geração de PDF.  
-**Base:** ISO/IEC 27001 adaptada à operação.
-
-### Auxilia App
-Plataforma digital para espiritualidade, comunicação, agenda e comunidade do Movimento Auxilia.
-
-**Foco:** produto institucional, conteúdo, eventos e experiência digital orientada à comunidade.
-
-### Tradutor MSA
-Extensão de navegador leve, segura e focada em produtividade.
-
-**Foco:** tradução rápida, experiência simples e distribuição multi-browser.
+My goal is to transform IT operations from reactive to **measurable, predictable, and scalable systems**.
 
 ---
 
-## Perfil de construção
+## What I Build
 
-Tenho interesse especial por produtos que unem:
+I focus on creating SaaS-style platforms that solve real operational problems in IT environments.
 
-- operação real
-- segurança desde o início
-- arquitetura evolutiva
-- documentação clara
-- experiência útil para o usuário
+### InfraPulse — IT Operations Observability Platform
+- Real-time SLA monitoring and incident tracking  
+- Team performance analytics  
+- Operational risk identification  
+- Data ingestion (CSV / Excel pipelines)  
+- Designed for multi-tenant environments  
 
-Não busco criar apenas “projetos de portfólio”.
-Busco construir soluções que possam evoluir para produtos reais.
+> Focus: turning IT operations into measurable data
 
 ---
 
-## Stack recorrente
+### SecPolicy HAMA — Security & Compliance Management
+- Based on ISO 27001 principles  
+- Continuous compliance scoring  
+- Audit tracking and traceability  
+- Designed for healthcare environments  
 
-**Web & Backend**
-- TypeScript
-- Next.js
-- NestJS
-- Node.js
+> Focus: simplifying governance and compliance workflows
 
-**Dados & Auth**
-- PostgreSQL
-- Prisma
-- Firebase
-- JWT / RBAC
+---
 
-**Entrega & Qualidade**
+### FlowDesk — Operational Management for IT Teams
+- Incident and SLA management  
+- Non-conformity tracking  
+- Operational checklists  
+- Workflow organization  
+
+> Focus: structuring and standardizing IT routines
+
+---
+
+### Prime Pet — Production System (Real Usage)
+- Multi-version system with real-world usage  
+- Ongoing migration to SaaS architecture  
+- Long-term product evolution  
+
+> Focus: demonstrating product lifecycle and maintainability
+
+---
+
+## Core Skills
+
+**Infrastructure & Operations**
+- Windows Server, Networking, Virtualization
+- Incident response and troubleshooting
+- SLA management and operational metrics
+
+**Software & Architecture**
+- Backend: Node.js, NestJS
+- Frontend: Next.js, TypeScript
+- Database: PostgreSQL, Prisma ORM
+
+**DevOps & Systems**
 - Docker
-- GitHub Actions
-- Testes automatizados
-- Deploy contínuo
+- Cloud deployment (Vercel, Render, Supabase)
+- System integration and data pipelines
 
-**Automação & Segurança**
-- Google Apps Script
-- PowerShell
-- Firestore Rules
-- Princípios de ISO 27001
+**Governance & Security**
+- ISO 27001 practices
+- LGPD awareness
+- Audit processes and compliance tracking
 
 ---
 
-## Direção profissional
+## Current Focus
 
-Estou evoluindo minha atuação para projetos e produtos ligados a:
-
-- Infraestrutura moderna
-- Cybersecurity
-- DevOps
-- Automação
-- SaaS B2B
-- Governança de TI
+- Building observability platforms for IT operations  
+- Structuring data-driven infrastructure environments  
+- Improving SLA performance and incident visibility  
+- Developing scalable SaaS solutions for internal operations  
 
 ---
 
-## Contato
+## Contact
 
-- LinkedIn: https://www.linkedin.com/in/fernando-msa/
-- GitHub: https://github.com/fernando-msa
+LinkedIn: https://www.linkedin.com/in/fernando-msa/  
+GitHub: https://github.com/fernando-msa  
 
 ---
 
-> Automatize o que é repetitivo, estruture o que é crítico e evolua o que gera valor.
+## Perspective
+
+Modern IT is no longer just about keeping systems running.
+
+It’s about building systems that **measure, predict, and improve operations continuously**.
