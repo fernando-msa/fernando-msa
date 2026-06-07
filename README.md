@@ -73,6 +73,7 @@ Lightweight browser extension for instant text translation with a privacy-focuse
 
 **Google Apps Script Automations** (HAMA internal tooling)  
 A suite of automation scripts for hospital IT operations:
+
 - **Bacula Log Archiver** — automated backup log processing and archival
 - **NF Archiver** — fiscal document organization pipeline
 - **Chamados Archiver** — helpdesk ticket archival from Rasptelles, Ksys, and SMED systems
@@ -90,4 +91,4 @@ A suite of automation scripts for hospital IT operations:
 
 ---
 
-*Infrastructure Analyst by day. Builder by conviction.*
+_Infrastructure Analyst by day. Builder by conviction._
