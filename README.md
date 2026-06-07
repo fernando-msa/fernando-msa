@@ -1,271 +1,118 @@
-<h1 align="center">Fernando Junior</h1>
 <p align="center">
-  <strong>Infrastructure Analyst | Computer Engineering Student</strong><br>
-  Building Observability, Governance & Automation Solutions for IT Operations
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=500&center=true&vCenter=true&width=435&lines=Infrastructure+Analyst;+Computer+Engineering+Student;Building+Observability+%26+Automation" alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/fernando-msa/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/fernando-msa"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
-  <img src="https://img.shields.io/badge/Location-Aracaju,_Brazil-34A853?style=flat" alt="Location">
-</p>
+# 👋 Fernando Junior
+
+📍 **Infrastructure Analyst** | 🎓 **Computer Engineering Student**  
+💡 Transformando operações de TI de reativas em **mensuráveis, previsíveis e escaláveis**.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernando-msa/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ribeirojunior270@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fernando-msa)
 
 ---
 
-## About Me
+## 🧠 Sobre Mim
 
-Infrastructure Analyst working in a **healthcare environment**, ensuring high availability, operational stability, and security of critical systems. I design and build software solutions that transform IT operations from reactive to **measurable, predictable, and scalable**.
+Atuo como **Infrastructure Analyst** em um ambiente de saúde, garantindo alta disponibilidade, estabilidade operacional e segurança de sistemas críticos. Meu objetivo é construir soluções de software que capacitem times de TI a operar com **governança, observabilidade e automação**.
 
-**What I do:**
-- Architect observability platforms for IT operations and SLA monitoring
-- Build security governance and compliance tools (ISO 27001 / LGPD)
-- Automate workflows and operational processes
-- Develop multi-tenant SaaS platforms for enterprise IT teams
+**Minhas áreas de atuação:**
+- 🚀 Arquitetura de plataformas de observabilidade para monitoramento de SLA
+- 🔒 Ferramentas de governança e conformidade em segurança (ISO 27001 / LGPD)
+- ⚙️ Automação de workflows e processos operacionais
+- ☁️ Desenvolvimento de plataformas SaaS multi-tenant para times de TI empresariais
 
----
-
-## Tech Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white" alt="NestJS">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white" alt="Prisma">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white" alt="Vercel">
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white" alt="Supabase">
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" alt="Firebase">
-</p>
+> 💭 *"TI moderna não é apenas manter sistemas no ar. É construir sistemas que medem, predizem e melhoram operações continuamente."*
 
 ---
 
-## Portfolio
-
-### IT Operations & Observability
-
-<table>
-<tr>
-<td width="50%">
-
-#### [InfraPulse](https://github.com/fernando-msa/infrapulse)
-**SaaS IT Operations Platform**
-
-Full-stack platform for IT operational management focused on SLA, productivity, and risk. Designed for help desk, service desk, and support centers to operate with predictability, governance, and multi-tenant isolation.
-
-`TypeScript` `NestJS` `Next.js` `PostgreSQL` `Prisma`
-
-</td>
-<td width="50%">
-
-#### [OpsBoard](https://github.com/fernando-msa/opsboard)
-**B2B SLA Monitoring & Status Page**
-
-B2B SaaS for SLA monitoring, incident tracking, and public status page with multi-tenant architecture. Real-time visibility into operational health.
-
-`TypeScript` `Multi-tenant` `Status Page`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### [InfraCare](https://github.com/fernando-msa/InfraCare)
-**Hospital Operations Platform**
-
-Web platform for hospital operations: asset monitoring, incident tracking, ticket management, checklists, SLA, audit trails, service status, and reports.
-
-`TypeScript` `Docker` `Healthcare`
-
-</td>
-<td width="50%">
-
-#### [FlowDesk](https://github.com/fernando-msa/flowdesk)
-**IT Team Operations Management**
-
-Internal ticket management, operational checklists, non-conformity tracking, and SLA monitoring. Structuring and standardizing IT routines.
-
-`TypeScript` `SLA` `Workflows`
-
-</td>
-</tr>
-</table>
-
-### Security & Governance
-
-<table>
-<tr>
-<td width="50%">
-
-#### [SecPolicy HAMA](https://github.com/fernando-msa/secpolicy-hama)
-**Security & Compliance Management**
-
-Monthly information security policy management for healthcare institutions. Based on ISO 27001 with continuous compliance scoring, audit tracking, and traceability.
-
-`TypeScript` `Next.js` `ISO 27001` `LGPD`
-
-</td>
-<td width="50%">
-
-#### [FirewallWatch](https://github.com/fernando-msa/firewallwatch)
-**Firewall Monitoring Platform**
-
-Infrastructure monitoring and security observability tool built with TypeScript.
-
-`TypeScript` `Security` `Monitoring`
-
-</td>
-</tr>
-</table>
-
-### GovTech & Social Impact
-
-<table>
-<tr>
-<td width="100%">
-
-#### [InfraPulse Social](https://github.com/fernando-msa/InfraPulse-Social)
-**GovTech Intelligence & Social Orchestration Platform**
-
-Platform for the state of Sergipe focused on public data integration and existing government systems. Social intelligence and orchestration for government operations.
-
-`TypeScript` `Python` `GovTech` `Data Integration`
-
-</td>
-</tr>
-</table>
-
-### Business Applications
-
-<table>
-<tr>
-<td width="50%">
-
-#### [Prime Pet](https://github.com/fernando-msa/prime-pet)
-**Pet Shop Management System**
-
-Client registration, scheduling, and management platform with admin dashboard. Multi-version system with real-world production usage, migrating to SaaS architecture.
-
-`HTML` `TypeScript` `Firebase`
-
-</td>
-<td width="50%">
-
-#### [Saldo.io](https://github.com/fernando-msa/Saldo.io)
-**Personal Finance App**
-
-Finance app focused on clarity, simplicity, and automation. Helps users understand where their money goes without confusing spreadsheets.
-
-`JavaScript` `TypeScript` `Finance`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### [FinCtrl](https://github.com/fernando-msa/finctrl)
-**Financial Data Control**
-
-Web application for financial data control and organization.
-
-`TypeScript` `Finance`
-
-</td>
-<td width="50%">
-
-#### [Auxilia App](https://github.com/fernando-msa/auxilia-app)
-**Community & Faith Platform**
-
-App connecting young people to faith through spirituality, music, and community of the Auxilia Movement.
-
-`TypeScript` `Community`
-
-</td>
-</tr>
-</table>
-
-### Help Desk & Support
-
-<table>
-<tr>
-<td width="100%">
-
-#### [HelpDesk SergipeTec](https://github.com/fernando-msa/HelpDesk-SergipeTec)
-**Technical Support Ticket System**
-
-Technical support ticket management system with JWT authentication, JPA persistence, and responsive web interface.
-
-`Java` `JWT` `JPA` `Web`
-
-</td>
-</tr>
-</table>
-
-### Automation & Tools
-
-<table>
-<tr>
-<td width="33%">
-
-#### [Bacula Log Archiver](https://github.com/fernando-msa/bacula-log-archiver)
-Automates capturing Bacula backup logs from Gmail, converting to styled PDFs, and organizing in Google Drive.
-
-`Google Apps Script` `Gmail API` `Automation`
-
-</td>
-<td width="33%">
-
-#### [Gmail NF Archiver](https://github.com/fernando-msa/gmail-nf-archiver)
-Automated invoice (Nota Fiscal) archiving from Gmail to Google Drive.
-
-`Google Apps Script` `Automation`
-
-</td>
-<td width="33%">
-
-#### [Gmail Chamados Archiver](https://github.com/fernando-msa/gmail-chamados-archiver)
-Automated support ticket email archiving solution.
-
-`Google Apps Script` `Automation`
-
-</td>
-</tr>
-<tr>
-<td width="100%" colspan="3">
-
-#### [Tradutor MSA](https://github.com/fernando-msa/tradutor-msa)
-Lightweight and secure browser extension for instant translation. Available for Edge, Chrome, and Firefox.
-
-`JavaScript` `Browser Extension` `Open Source`
-
-</td>
-</tr>
-</table>
+## 🛠️ Tech Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 ---
 
-## By the Numbers
+## 📌 Projetos em Destaque
 
-| Metric | Value |
-|---|---|
-| Public Repositories | 16 |
-| Primary Languages | TypeScript, JavaScript, Java |
-| Focus Areas | IT Operations, Security Governance, Automation |
-| Key Platforms | SaaS, Multi-tenant, Enterprise IT |
+### 🏥 IT Operations & Observability
+
+| Projeto | Descrição | Stack |
+|---------|-----------|-------|
+| [**SaaS IT Operations Platform**](https://github.com/fernando-msa/infrapulse-social) | Plataforma completa para gestão operacional de TI focada em SLA, produtividade e riscos. Design multi-tenant e previsível. | `NestJS` `Next.js` `PostgreSQL` `Prisma` |
+| [**B2B SLA Monitoring & Status Page**](https://github.com/fernando-msa) | SaaS B2B para monitoramento de SLA, rastreamento de incidentes e status page pública com arquitetura multi-tenant. | `TypeScript` `Multi-tenant` |
+| [**Hospital Operations Platform**](https://github.com/fernando-msa) | Plataforma web para operações hospitalares: monitoramento de ativos, incidentes, tickets, checklists, SLA e trilhas de auditoria. | `TypeScript` `Docker` `Healthcare` |
+| [**IT Team Operations Management**](https://github.com/fernando-msa) | Gestão interna de tickets, checklists operacionais, rastreamento de não-conformidades e monitoramento de SLA. | `TypeScript` `SLA` `Workflows` |
+
+### 🔒 Security & Governance
+
+| Projeto | Descrição | Stack |
+|---------|-----------|-------|
+| [**Security & Compliance Management**](https://github.com/fernando-msa/secpolicy-hama) | Gestão mensal de políticas de segurança da informação para instituições de saúde. Baseado na ISO 27001 com pontuação contínua de conformidade. | `TypeScript` `Next.js` `ISO 27001` |
+| [**Firewall Monitoring Platform**](https://github.com/fernando-msa/firewallwatch) | Ferramenta de monitoramento de infraestrutura e observabilidade de segurança. | `TypeScript` `Security` |
+| [**SecOps Dashboard**](https://github.com/fernando-msa/SecOps-Dashboard) | Centro de Operações de Segurança (SOC) — gerenciamento centralizado de eventos, vulnerabilidades e resposta a incidentes. | `TypeScript` `SOC` |
+
+### 🏛️ GovTech & Social Impact
+
+| Projeto | Descrição | Stack |
+|---------|-----------|-------|
+| [**GovTech Intelligence Platform**](https://github.com/fernando-msa/infrapulse-social) | Plataforma para o estado de Sergipe focada em integração de dados públicos e orquestração social para operações governamentais. | `TypeScript` `Python` `GovTech` |
+
+### 📊 Business Applications
+
+| Projeto | Descrição | Stack |
+|---------|-----------|-------|
+| [**Pet Shop Management System**](https://github.com/fernando-msa) | Sistema de gestão com cadastro de clientes, agendamentos e dashboard administrativo. Em migração para arquitetura SaaS. | `HTML` `TypeScript` `Firebase` |
+| [**Personal Finance App**](https://github.com/fernando-msa) | App financeiro focado em clareza, simplicidade e automação para controle de gastos. | `JavaScript` `TypeScript` |
+| [**Financial Data Control**](https://github.com/fernando-msa) | Aplicação web para controle e organização de dados financeiros. | `TypeScript` `Finance` |
+| [**Community & Faith Platform**](https://github.com/fernando-msa) | App que conecta jovens à fé através de espiritualidade, música e comunidade do Movimento Auxilia. | `TypeScript` `Community` |
+
+### 🛠️ Automation & Tools
+
+| Projeto | Descrição | Stack |
+|---------|-----------|-------|
+| [**Bacula Log Archiver**](https://github.com/fernando-msa/bacula-log-archiver) | Automação para capturar logs de backup do Bacula via Gmail, converter para PDFs estilizados e organizar no Google Drive. | `Google Apps Script` `Gmail API` |
+| [**Terraform Hama IaC Governance**](https://github.com/fernando-msa/terraform-hama-iac-governance) | Transformação de documentação de governança de TI em infraestrutura automatizável e auditável. | `HCL` `Terraform` |
+| [**Instant Translate Extension**](https://github.com/fernando-msa) | Extensão de navegador leve e segura para tradução instantânea. Disponível para Edge, Chrome e Firefox. | `JavaScript` `Browser Extension` |
 
 ---
 
-## What Drives Me
+## 📊 By the Numbers
 
-> Modern IT is not about keeping systems running. It's about building systems that **measure, predict, and improve operations continuously**.
+<div align="center">
 
-I believe infrastructure teams should operate like product teams -- with observability, metrics, and continuous improvement. Every tool I build reflects this philosophy.
+| | | |
+|:---:|:---:|:---:|
+| **16**<br>Repositórios Públicos | **TypeScript**<br>Linguagem Principal | **SaaS / Multi-tenant**<br>Arquitetura Foco |
+
+</div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fernando-msa/fernando-msa/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fernando-msa/fernando-msa/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/fernando-msa/fernando-msa/output/github-contribution-grid-snake.svg">
+</picture>
 
 ---
 
-<p align="center">
-  <i>Open to opportunities in IT Operations, Platform Engineering, and Infrastructure Automation</i>
-</p>
+## 🚀 O Que Me Move
+
+Acredito que times de infraestrutura devem operar como **times de produto** — com observabilidade, métricas e melhoria contínua. Cada ferramenta que construo reflete essa filosofia.
+
+✨ **Aberto a oportunidades em:**  
+`Infrastructure Automation` • `Platform Engineering` • `SRE` • `DevOps` • `IT Operations Leadership`
+
+---
+
+<div align="center">
+  <sub>⭐️ Se gosta do meu trabalho, considere dar uma estrela nos repositórios!</sub>
+</div>
