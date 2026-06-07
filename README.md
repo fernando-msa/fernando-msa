@@ -1,118 +1,93 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=500&center=true&vCenter=true&width=435&lines=Infrastructure+Analyst;+Computer+Engineering+Student;Building+Observability+%26+Automation" alt="Typing SVG" />
-</p>
+# Fernando Junior
 
-# 👋 Fernando Junior
-
-📍 **Infrastructure Analyst** | 🎓 **Computer Engineering Student**  
-💡 Transformando operações de TI de reativas em **mensuráveis, previsíveis e escaláveis**.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernando-msa/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ribeirojunior270@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fernando-msa)
+**IT Infrastructure Analyst | Computer Engineering Student**  
+Aracaju, Sergipe, Brazil
 
 ---
 
-## 🧠 Sobre Mim
+IT Infrastructure Analyst at IGH/HAMA (Hospital Agamenon Magalhães, Aracaju) with experience in server administration, backup management (Bacula), IT service management (GLPI), and infrastructure automation. Currently pursuing a degree in Computer Engineering at Descomplica.
 
-Atuo como **Infrastructure Analyst** em um ambiente de saúde, garantindo alta disponibilidade, estabilidade operacional e segurança de sistemas críticos. Meu objetivo é construir soluções de software que capacitem times de TI a operar com **governança, observabilidade e automação**.
+My work spans the intersection of enterprise infrastructure, cybersecurity, and full-stack web development. I build internal tooling and automation that makes systems operate more reliably and with less manual intervention.
 
-**Minhas áreas de atuação:**
-- 🚀 Arquitetura de plataformas de observabilidade para monitoramento de SLA
-- 🔒 Ferramentas de governança e conformidade em segurança (ISO 27001 / LGPD)
-- ⚙️ Automação de workflows e processos operacionais
-- ☁️ Desenvolvimento de plataformas SaaS multi-tenant para times de TI empresariais
-
-> 💭 *"TI moderna não é apenas manter sistemas no ar. É construir sistemas que medem, predizem e melhoram operações continuamente."*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernando-msa/)
+[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)](https://gitlab.com/fernando-msa)
+[![Lattes](https://img.shields.io/badge/Lattes-CV-003366?style=flat)](https://lattes.cnpq.br/6430749481990088)
 
 ---
 
-## 🛠️ Tech Stack
+## Core Competencies
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+**Infrastructure & Operations**  
+Windows Server, Linux (Ubuntu/Debian), Bacula Backup, GLPI, Active Directory, network administration, IT service desk management
 
----
+**Automation & Scripting**  
+Google Apps Script, PowerShell, Bash, Ansible
 
-## 📌 Projetos em Destaque
+**Web Development**  
+Next.js, TypeScript, React, Node.js, Supabase, Firebase, Vercel
 
-### 🏥 IT Operations & Observability
-
-| Projeto | Descrição | Stack |
-|---------|-----------|-------|
-| [**SaaS IT Operations Platform**](https://github.com/fernando-msa/infrapulse-social) | Plataforma completa para gestão operacional de TI focada em SLA, produtividade e riscos. Design multi-tenant e previsível. | `NestJS` `Next.js` `PostgreSQL` `Prisma` |
-| [**B2B SLA Monitoring & Status Page**](https://github.com/fernando-msa/opsboard) | SaaS B2B para monitoramento de SLA, rastreamento de incidentes e status page pública com arquitetura multi-tenant. | `TypeScript` `Multi-tenant` |
-| [**Hospital Operations Platform**](https://github.com/fernando-msa/InfraCare) | Plataforma web para operações hospitalares: monitoramento de ativos, incidentes, tickets, checklists, SLA e trilhas de auditoria. | `TypeScript` `Docker` `Healthcare` |
-| [**IT Team Operations Management**](https://github.com/fernando-msa/flowdesk) | Gestão interna de tickets, checklists operacionais, rastreamento de não-conformidades e monitoramento de SLA. | `TypeScript` `SLA` `Workflows` |
-
-### 🔒 Security & Governance
-
-| Projeto | Descrição | Stack |
-|---------|-----------|-------|
-| [**Security & Compliance Management**](https://github.com/fernando-msa/secpolicy-hama) | Gestão mensal de políticas de segurança da informação para instituições de saúde. Baseado na ISO 27001 com pontuação contínua de conformidade. | `TypeScript` `Next.js` `ISO 27001` |
-| [**Firewall Monitoring Platform**](https://github.com/fernando-msa/firewallwatch) | Ferramenta de monitoramento de infraestrutura e observabilidade de segurança. | `TypeScript` `Security` |
-| [**SecOps Dashboard**](https://github.com/fernando-msa/SecOps-Dashboard) | Centro de Operações de Segurança (SOC) — gerenciamento centralizado de eventos, vulnerabilidades e resposta a incidentes. | `TypeScript` `SOC` |
-
-### 🏛️ GovTech & Social Impact
-
-| Projeto | Descrição | Stack |
-|---------|-----------|-------|
-| [**GovTech Intelligence Platform**](https://github.com/fernando-msa/infrapulse-social) | Plataforma para o estado de Sergipe focada em integração de dados públicos e orquestração social para operações governamentais. | `TypeScript` `Python` `GovTech` |
-
-### 📊 Business Applications
-
-| Projeto | Descrição | Stack |
-|---------|-----------|-------|
-| [**Pet Shop Management System**](https://github.com/fernando-msa/prime-pet) | Sistema de gestão com cadastro de clientes, agendamentos e dashboard administrativo. Em migração para arquitetura SaaS. | `HTML` `TypeScript` `Firebase` |
-| [**Personal Finance App**](https://github.com/fernando-msa/Saldo.io) | App financeiro focado em clareza, simplicidade e automação para controle de gastos. | `JavaScript` `TypeScript` |
-| [**Financial Data Control**](https://github.com/fernando-msa/finctrl) | Aplicação web para controle e organização de dados financeiros. | `TypeScript` `Finance` |
-| [**Community & Faith Platform**](https://github.com/fernando-msa) | App que conecta jovens à fé através de espiritualidade, música e comunidade do Movimento Auxilia. | `TypeScript` `Community` |
-
-### 🛠️ Automation & Tools
-
-| Projeto | Descrição | Stack |
-|---------|-----------|-------|
-| [**Bacula Log Archiver**](https://github.com/fernando-msa/bacula-log-archiver) | Automação para capturar logs de backup do Bacula via Gmail, converter para PDFs estilizados e organizar no Google Drive. | `Google Apps Script` `Gmail API` |
-| [**Terraform Hama IaC Governance**](https://github.com/fernando-msa/terraform-hama-iac-governance) | Transformação de documentação de governança de TI em infraestrutura automatizável e auditável. | `HCL` `Terraform` |
-| [**Instant Translate Extension**](https://github.com/fernando-msa/tradutor-msa) | Extensão de navegador leve e segura para tradução instantânea. Disponível para Edge, Chrome e Firefox. | `JavaScript` `Browser Extension` |
+**Security**  
+ISO/IEC 27001, internal policy management, incident control, ONA accreditation documentation
 
 ---
 
-## 📊 By the Numbers
+## Projects
 
-<div align="center">
+### Infrastructure & Security
 
-| | | |
-|:---:|:---:|:---:|
-| **16**<br>Repositórios Públicos | **TypeScript**<br>Linguagem Principal | **SaaS / Multi-tenant**<br>Arquitetura Foco |
-
-</div>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fernando-msa/fernando-msa/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fernando-msa/fernando-msa/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/fernando-msa/fernando-msa/output/github-contribution-grid-snake.svg">
-</picture>
+**[secpolicy-hama](https://github.com/fernando-msa/secpolicy-hama)**  
+Internal information security policy checklist tool built for HAMA. Built with Next.js 14 and TypeScript, aligned with ISO/IEC 27001 controls, featuring localStorage persistence and PDF export via jsPDF.  
+`Next.js` `TypeScript` `ISO 27001` `jsPDF` — [Live](https://secpolicy-hama.vercel.app)
 
 ---
 
-## 🚀 O Que Me Move
+### Full-Stack Applications
 
-Acredito que times de infraestrutura devem operar como **times de produto** — com observabilidade, métricas e melhoria contínua. Cada ferramenta que construo reflete essa filosofia.
+**[auxilia-app](https://github.com/fernando-msa/auxilia-app)**  
+Progressive Web App for Movimento Auxilia Brasil (Salesian religious movement). Covers vocational tracking (PSA), tithe management, and mission inscriptions. Built with Next.js 15 and Supabase.  
+`Next.js 15` `Supabase` `PWA` `TypeScript` — [Live](https://auxilia-app.vercel.app)
 
-✨ **Aberto a oportunidades em:**  
-`Infrastructure Automation` • `Platform Engineering` • `SRE` • `DevOps` • `IT Operations Leadership`
+**[mob-app](https://github.com/fernando-msa/mob-app)**  
+PWA for the Billings Ovulation Method (MOB), supporting reproductive health tracking with push notifications, cron jobs, and a full authentication flow.  
+`Next.js 14` `TypeScript` `Supabase` `Web Push` — [Live](https://mob-app-five.vercel.app)
+
+**[prime-pet](https://github.com/fernando-msa/prime-pet)**  
+Service contract and scheduling management system for a pet care business. Includes an admin panel and Firebase Realtime Database integration.  
+`JavaScript` `Firebase` `HTML/CSS`
+
+**[HelpDesk-SergipeTec](https://github.com/fernando-msa/HelpDesk-SergipeTec)**  
+Help Desk ticket management system developed as part of a technical selection process at SergipeTec. Built with Java and Jakarta EE.  
+`Java` `Jakarta EE`
 
 ---
 
-<div align="center">
-  <sub>⭐️ Se gosta do meu trabalho, considere dar uma estrela nos repositórios!</sub>
-</div>
+### Browser Extensions
+
+**[Tradutor-MSA-Extensao](https://github.com/fernando-msa/Tradutor-MSA-Extensao)**  
+Lightweight browser extension for instant text translation with a privacy-focused, minimalist UX. Published on the Microsoft Edge Store and Firefox Add-ons.  
+`JavaScript` `Chrome Extension API` `WebExtensions`
+
+---
+
+### Automation & Scripts
+
+**Google Apps Script Automations** (HAMA internal tooling)  
+A suite of automation scripts for hospital IT operations:
+- **Bacula Log Archiver** — automated backup log processing and archival
+- **NF Archiver** — fiscal document organization pipeline
+- **Chamados Archiver** — helpdesk ticket archival from Rasptelles, Ksys, and SMED systems
+- **Ksys → Google Sheets → Looker Studio pipeline** — IT metrics dashboard (SLA, resolution times, technician productivity)
+- **Grafana / SMPEP watchdog** — Chrome extension scripts for dashboard monitoring on TV displays
+
+`Google Apps Script` `JavaScript` `Looker Studio`
+
+---
+
+## GitHub Stats
+
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=fernando-msa&show_icons=true&theme=default&include_all_commits=true&count_private=true)
+![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=default)
+
+---
+
+*Infrastructure Analyst by day. Builder by conviction.*
