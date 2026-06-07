@@ -49,6 +49,10 @@ Service contract and scheduling system for a pet care business, with Firebase Re
 ## Other Public Repositories
 
 <!-- OTHERS_START -->
+- **[opsboard](https://github.com/fernando-msa/opsboard)**  
+SaaS B2B para monitoramento de SLA, incidentes e status page pública, com arquitetura multi-tenant. — [Live](https://opsboard-w8jp.onrender.com)  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
 - **[jornada-CAR-facil](https://github.com/fernando-msa/jornada-CAR-facil)**  
 Este repositório contém a documentação completa, a arquitetura e a estrutura de código inicial desenvolvida para o Desafio 1 do haCARthon: "Jornada CAR Fácil".  
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -75,10 +79,6 @@ Plataforma GovTech de inteligencia e orquestracao social para o estado de Sergip
 
 - **[flowdesk](https://github.com/fernando-msa/flowdesk)**  
 Plataforma web para gestão de chamados internos, checklists operacionais, não conformidades e acompanhamento de SLA.  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-- **[opsboard](https://github.com/fernando-msa/opsboard)**  
-SaaS B2B para monitoramento de SLA, incidentes e status page pública, com arquitetura multi-tenant. — [Live](https://opsboard-w8jp.onrender.com)  
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
 - **[infrapulse](https://github.com/fernando-msa/infrapulse)**  
