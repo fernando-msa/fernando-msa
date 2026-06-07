@@ -1,0 +1,52 @@
+name: Update README
+
+on:
+  # Run every day at 03:00 UTC
+  schedule:
+    - cron: "0 3 * * *"
+
+  # Run on every push to main that touches the generator or this workflow
+  push:
+    branches: [main]
+    paths:
+      - "generate-readme.js"
+      - ".github/workflows/update-readme.yml"
+
+  # Allow manual trigger from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push the updated README back
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Use a PAT so the push triggers further workflows if needed;
+          # falls back to GITHUB_TOKEN for basic use.
+          token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate README
+        env:
+          # GH_TOKEN is a Personal Access Token stored as a repository secret.
+          # It needs the "public_repo" scope (or "repo" for private repos).
+          # Without it the script still works but may hit rate limits.
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: node generate-readme.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          # Only commit when README actually changed
+          git diff --cached --quiet || git commit -m "chore: auto-update README [skip ci]"
+          git push
