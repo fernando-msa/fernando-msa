@@ -1,54 +1,54 @@
-const https = require("https");
-const fs = require("fs");
+import https from 'node:https';
+import fs from 'node:fs';
 
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
 
-const USERNAME = "fernando-msa";
+const USERNAME = 'fernando-msa';
 
 // Repos to always pin at the top, in this order (slug = repo name)
 const PINNED = [
-  "secpolicy-hama",
-  "auxilia-app",
-  "mob-app",
-  "HelpDesk-SergipeTec",
-  "prime-pet",
-  "Tradutor-MSA-Extensao",
+  'secpolicy-hama',
+  'auxilia-app',
+  'mob-app',
+  'HelpDesk-SergipeTec',
+  'prime-pet',
+  'Tradutor-MSA-Extensao',
 ];
 
 // Repos to skip entirely (forks, meta repos, etc.)
-const SKIP = [USERNAME, "fernando-msa"]; // skip the profile repo itself
+const SKIP = [USERNAME, 'fernando-msa']; // skip the profile repo itself
 
 // Manual overrides: add/correct description or live URL for specific repos
 const OVERRIDES = {
-  "secpolicy-hama": {
+  'secpolicy-hama': {
     description:
-      "Information security policy checklist for HAMA, aligned with ISO/IEC 27001. Features PDF export and localStorage persistence.",
-    homepage: "https://secpolicy-hama.vercel.app",
+      'Information security policy checklist for HAMA, aligned with ISO/IEC 27001. Features PDF export and localStorage persistence.',
+    homepage: 'https://secpolicy-hama.vercel.app',
   },
-  "auxilia-app": {
+  'auxilia-app': {
     description:
-      "Progressive Web App for Movimento Auxilia Brasil (Salesian movement). Covers vocational tracking (PSA), tithe management and mission inscriptions.",
-    homepage: "https://auxilia-app.vercel.app",
+      'Progressive Web App for Movimento Auxilia Brasil (Salesian movement). Covers vocational tracking (PSA), tithe management and mission inscriptions.',
+    homepage: 'https://auxilia-app.vercel.app',
   },
-  "mob-app": {
+  'mob-app': {
     description:
-      "PWA for the Billings Ovulation Method (MOB). Full auth flow, push notifications and cron jobs.",
-    homepage: "https://mob-app-five.vercel.app",
+      'PWA for the Billings Ovulation Method (MOB). Full auth flow, push notifications and cron jobs.',
+    homepage: 'https://mob-app-five.vercel.app',
   },
-  "HelpDesk-SergipeTec": {
+  'HelpDesk-SergipeTec': {
     description:
-      "Help Desk ticket management system developed for the SergipeTec technical selection process.",
-    homepage: "",
+      'Help Desk ticket management system developed for the SergipeTec technical selection process.',
+    homepage: '',
   },
-  "prime-pet": {
+  'prime-pet': {
     description:
-      "Service contract and scheduling system for a pet care business, with Firebase Realtime Database integration and admin panel.",
-    homepage: "",
+      'Service contract and scheduling system for a pet care business, with Firebase Realtime Database integration and admin panel.',
+    homepage: '',
   },
-  "Tradutor-MSA-Extensao": {
+  'Tradutor-MSA-Extensao': {
     description:
-      "Lightweight browser extension for instant text translation. Published on the Microsoft Edge Store and Firefox Add-ons.",
-    homepage: "",
+      'Lightweight browser extension for instant text translation. Published on the Microsoft Edge Store and Firefox Add-ons.',
+    homepage: '',
   },
 };
 
@@ -58,75 +58,70 @@ function get(url, token) {
   return new Promise((resolve, reject) => {
     const options = {
       headers: {
-        "User-Agent": "readme-generator",
-        Accept: "application/vnd.github+json",
+        'User-Agent': 'readme-generator',
+        Accept: 'application/vnd.github+json',
         ...(token ? { Authorization: `Bearer ${token}` } : {}),
       },
     };
-    https.get(url, options, (res) => {
-      let body = "";
-      res.on("data", (d) => (body += d));
-      res.on("end", () => {
-        try {
-          resolve(JSON.parse(body));
-        } catch (e) {
-          reject(e);
-        }
-      });
-    }).on("error", reject);
+    https
+      .get(url, options, (res) => {
+        let body = '';
+        res.on('data', (d) => (body += d));
+        res.on('end', () => {
+          try {
+            resolve(JSON.parse(body));
+          } catch (e) {
+            reject(e);
+          }
+        });
+      })
+      .on('error', reject);
   });
-}
-
-function badge(label, color, logo) {
-  const l = encodeURIComponent(label);
-  return `![${label}](https://img.shields.io/badge/${l}-${color}?style=flat-square${logo ? `&logo=${logo}&logoColor=white` : ""})`;
 }
 
 function langBadge(lang) {
   const map = {
-    JavaScript:  ["F7DF1E", "javascript",  "black"],
-    TypeScript:  ["3178C6", "typescript",   "white"],
-    Java:        ["ED8B00", "java",          "white"],
-    Python:      ["3776AB", "python",        "white"],
-    Dart:        ["0175C2", "dart",          "white"],
-    HTML:        ["E34F26", "html5",         "white"],
-    CSS:         ["1572B6", "css3",          "white"],
-    Shell:       ["4EAA25", "gnubash",       "white"],
-    PowerShell:  ["5391FE", "powershell",    "white"],
+    JavaScript: ['F7DF1E', 'javascript', 'black'],
+    TypeScript: ['3178C6', 'typescript', 'white'],
+    Java: ['ED8B00', 'java', 'white'],
+    Python: ['3776AB', 'python', 'white'],
+    Dart: ['0175C2', 'dart', 'white'],
+    HTML: ['E34F26', 'html5', 'white'],
+    CSS: ['1572B6', 'css3', 'white'],
+    Shell: ['4EAA25', 'gnubash', 'white'],
+    PowerShell: ['5391FE', 'powershell', 'white'],
   };
-  const [color, logo, textColor] = map[lang] || ["555555", null, "white"];
+  const [color, logo, textColor] = map[lang] || ['555555', null, 'white'];
   const l = encodeURIComponent(lang);
-  return `![${lang}](https://img.shields.io/badge/${l}-${color}?style=flat-square${logo ? `&logo=${logo}&logoColor=${textColor}` : ""})`;
+  return `![${lang}](https://img.shields.io/badge/${l}-${color}?style=flat-square${logo ? `&logo=${logo}&logoColor=${textColor}` : ''})`;
 }
 
 // ─── README BUILDER ──────────────────────────────────────────────────────────
 
 function buildProjectRow(repo) {
   const override = OVERRIDES[repo.name] || {};
-  const desc = override.description || repo.description || "_No description._";
+  const desc = override.description || repo.description || '_No description._';
   const url = repo.html_url;
   const home = override.homepage !== undefined ? override.homepage : repo.homepage;
   const lang = repo.language;
   const stars = repo.stargazers_count;
 
-  const liveLink = home ? ` — [Live](${home})` : "";
-  const starStr = stars > 0 ? ` ⭐ ${stars}` : "";
-  const langStr = lang ? `  \n${langBadge(lang)}` : "";
+  const liveLink = home ? ` — [Live](${home})` : '';
+  const starStr = stars > 0 ? ` ⭐ ${stars}` : '';
+  const langStr = lang ? `  \n${langBadge(lang)}` : '';
 
   return `**[${repo.name}](${url})**${starStr}  \n${desc}${liveLink}${langStr}`;
 }
 
 function buildReadme(pinned, others) {
-  const pinnedSection = pinned
-    .map((r) => `### ${buildProjectRow(r)}`)
-    .join("\n\n");
+  const pinnedSection = pinned.map((r) => `### ${buildProjectRow(r)}`).join('\n\n');
 
   const otherSection =
     others.length > 0
-      ? others.map((r) => `- ${buildProjectRow(r)}`).join("\n\n")
-      : "_No additional public repositories._";
+      ? others.map((r) => `- ${buildProjectRow(r)}`).join('\n\n')
+      : '_No additional public repositories._';
 
-  const now = new Date().toISOString().split("T")[0];
+  const now = new Date().toISOString().split('T')[0];
 
   return `# Fernando Junior
 
@@ -184,8 +179,8 @@ _Last updated: ${now} — auto-generated by [generate-readme.js](.github/workflo
 // ─── MAIN ────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const token = process.env.GH_TOKEN || "";
-  console.log("Fetching repositories for", USERNAME, "...");
+  const token = process.env.GH_TOKEN || '';
+  console.log('Fetching repositories for', USERNAME, '...');
 
   let allRepos = [];
   let page = 1;
@@ -200,9 +195,7 @@ async function main() {
   console.log(`Fetched ${allRepos.length} repos.`);
 
   // Filter out skipped and forked repos
-  const repos = allRepos.filter(
-    (r) => !SKIP.includes(r.name) && !r.fork
-  );
+  const repos = allRepos.filter((r) => !SKIP.includes(r.name) && !r.fork);
 
   // Build pinned list (preserving manual order, skipping missing ones)
   const repoMap = Object.fromEntries(repos.map((r) => [r.name, r]));
@@ -215,8 +208,8 @@ async function main() {
     .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
 
   const readme = buildReadme(pinnedRepos, otherRepos);
-  fs.writeFileSync("README.md", readme, "utf8");
-  console.log("README.md written successfully.");
+  fs.writeFileSync('README.md', readme, 'utf8');
+  console.log('README.md written successfully.');
 }
 
 main().catch((err) => {
