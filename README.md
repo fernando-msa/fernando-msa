@@ -49,9 +49,9 @@ Atuo como **Infrastructure Analyst** em um ambiente de saúde, garantindo alta d
 | Projeto | Descrição | Stack |
 |---------|-----------|-------|
 | [**SaaS IT Operations Platform**](https://github.com/fernando-msa/infrapulse-social) | Plataforma completa para gestão operacional de TI focada em SLA, produtividade e riscos. Design multi-tenant e previsível. | `NestJS` `Next.js` `PostgreSQL` `Prisma` |
-| [**B2B SLA Monitoring & Status Page**](https://github.com/fernando-msa) | SaaS B2B para monitoramento de SLA, rastreamento de incidentes e status page pública com arquitetura multi-tenant. | `TypeScript` `Multi-tenant` |
-| [**Hospital Operations Platform**](https://github.com/fernando-msa) | Plataforma web para operações hospitalares: monitoramento de ativos, incidentes, tickets, checklists, SLA e trilhas de auditoria. | `TypeScript` `Docker` `Healthcare` |
-| [**IT Team Operations Management**](https://github.com/fernando-msa) | Gestão interna de tickets, checklists operacionais, rastreamento de não-conformidades e monitoramento de SLA. | `TypeScript` `SLA` `Workflows` |
+| [**B2B SLA Monitoring & Status Page**](https://github.com/fernando-msa/opsboard) | SaaS B2B para monitoramento de SLA, rastreamento de incidentes e status page pública com arquitetura multi-tenant. | `TypeScript` `Multi-tenant` |
+| [**Hospital Operations Platform**](https://github.com/fernando-msa/InfraCare) | Plataforma web para operações hospitalares: monitoramento de ativos, incidentes, tickets, checklists, SLA e trilhas de auditoria. | `TypeScript` `Docker` `Healthcare` |
+| [**IT Team Operations Management**](https://github.com/fernando-msa/flowdesk) | Gestão interna de tickets, checklists operacionais, rastreamento de não-conformidades e monitoramento de SLA. | `TypeScript` `SLA` `Workflows` |
 
 ### 🔒 Security & Governance
 
@@ -71,9 +71,9 @@ Atuo como **Infrastructure Analyst** em um ambiente de saúde, garantindo alta d
 
 | Projeto | Descrição | Stack |
 |---------|-----------|-------|
-| [**Pet Shop Management System**](https://github.com/fernando-msa) | Sistema de gestão com cadastro de clientes, agendamentos e dashboard administrativo. Em migração para arquitetura SaaS. | `HTML` `TypeScript` `Firebase` |
-| [**Personal Finance App**](https://github.com/fernando-msa) | App financeiro focado em clareza, simplicidade e automação para controle de gastos. | `JavaScript` `TypeScript` |
-| [**Financial Data Control**](https://github.com/fernando-msa) | Aplicação web para controle e organização de dados financeiros. | `TypeScript` `Finance` |
+| [**Pet Shop Management System**](https://github.com/fernando-msa/prime-pet) | Sistema de gestão com cadastro de clientes, agendamentos e dashboard administrativo. Em migração para arquitetura SaaS. | `HTML` `TypeScript` `Firebase` |
+| [**Personal Finance App**](https://github.com/fernando-msa/Saldo.io) | App financeiro focado em clareza, simplicidade e automação para controle de gastos. | `JavaScript` `TypeScript` |
+| [**Financial Data Control**](https://github.com/fernando-msa/finctrl) | Aplicação web para controle e organização de dados financeiros. | `TypeScript` `Finance` |
 | [**Community & Faith Platform**](https://github.com/fernando-msa) | App que conecta jovens à fé através de espiritualidade, música e comunidade do Movimento Auxilia. | `TypeScript` `Community` |
 
 ### 🛠️ Automation & Tools
@@ -82,7 +82,7 @@ Atuo como **Infrastructure Analyst** em um ambiente de saúde, garantindo alta d
 |---------|-----------|-------|
 | [**Bacula Log Archiver**](https://github.com/fernando-msa/bacula-log-archiver) | Automação para capturar logs de backup do Bacula via Gmail, converter para PDFs estilizados e organizar no Google Drive. | `Google Apps Script` `Gmail API` |
 | [**Terraform Hama IaC Governance**](https://github.com/fernando-msa/terraform-hama-iac-governance) | Transformação de documentação de governança de TI em infraestrutura automatizável e auditável. | `HCL` `Terraform` |
-| [**Instant Translate Extension**](https://github.com/fernando-msa) | Extensão de navegador leve e segura para tradução instantânea. Disponível para Edge, Chrome e Firefox. | `JavaScript` `Browser Extension` |
+| [**Instant Translate Extension**](https://github.com/fernando-msa/tradutor-msa) | Extensão de navegador leve e segura para tradução instantânea. Disponível para Edge, Chrome e Firefox. | `JavaScript` `Browser Extension` |
 
 ---
 
