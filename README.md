@@ -73,7 +73,7 @@ Ferramenta desenvolvida para otimização de fluxos de trabalho operacionais, pu
 
 Seja para conversar sobre DevOps, automação de infraestrutura, arquitetura full-stack ou segurança da informação, sinta-se à vontade para entrar em contato!
 
-* 📞 **Telefone/WhatsApp:** (79) 99607-3451
+* 📞 **Telefone/WhatsApp:** (79) 99674-8930
 * ✉️ **E-mail:** ribeirojunior270@gmail.com
 * 💼 **LinkedIn:** [linkedin.com/in/fernando-msa](https://www.linkedin.com/in/fernando-msa/)
 * 🔬 **Currículo Lattes:** [lattes.cnpq.br/6430749481990088](https://lattes.cnpq.br/6430749481990088)
