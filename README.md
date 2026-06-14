@@ -1,79 +1,122 @@
-# Olá, eu sou o Fernando! 👋
+# Fernando Junior
 
-### Analista de Infraestrutura | Especialista em Automação, DevOps & Segurança
-
-Trabalho na convergência entre infraestrutura crítica e engenharia de software. Tenho sólida experiência no gerenciamento de ambientes de alta disponibilidade (setor hospitalar), arquitetura de pipelines serverless, segurança da informação e infraestrutura como código (IaC). Sou focado em transformar fluxos manuais em processos automatizados, eficientes e escaláveis.
-
----
-
-## 🛠️ Competências Técnicas
-
-### 🌐 Infraestrutura, Redes & DevOps
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-
-### 💻 Desenvolvimento Full-Stack & Cloud
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-### 🛡️ Segurança & Compliance
-* Framework **ISO/IEC 27001** (Segurança da Informação)
-* Norma **ISO/IEC 12207** (Ciclo de Vida de Software)
-* Auditoria e Conformidade de Infraestrutura Hospitalar (**Padrão ONA**)
+**IT Infrastructure Analyst | Computer Engineering Student**  
+Aracaju, Sergipe, Brazil
 
 ---
 
-## 🎓 Formação Acadêmica & Especializações
+IT Infrastructure Analyst at IGH/HAMA with experience in server administration, backup management (Bacula), IT service management (GLPI), and infrastructure automation. Computer Engineering student at Descomplica.
 
-* **Pós-Graduação em Engenharia de Redes e Telecomunicações** – *Faculdade Anhanguera* (Conclusão prevista: 12/2026)
-* **Bacharelado em Engenharia da Computação** (5º Período) – *Descomplica* (Em andamento)
-* **Graduação Tecnológica em Análise e Desenvolvimento de Sistemas** – *Faculdade Jardins* (Concluído em 05/2025)
+My work sits at the intersection of enterprise infrastructure, cybersecurity, and full-stack web development — building internal tooling and automations that make systems operate more reliably.
 
----
-
-## 🚀 Projetos de Destaque
-
-📁 **[movimento-auxilia-brasil](https://github.com/fernando-msa/movimento-auxilia-brasil)** (Auxilia App)
-Aplicação PWA (Progressive Web App) em produção desenvolvida com **Next.js 15** e **Supabase**. Implementação de Service Workers manuais, políticas rígidas de segurança de dados em nível de linha (RLS) e autenticação. Disponível em: *auxilia-app.vercel.app*.
-
-📁 **Plataforma MOB App**
-Progressive Web App construído com **Next.js 14** e **Supabase** integrando notificações push nativas via protocolo VAPID/web-push, geração assíncrona de relatórios em PDF e cron jobs automáticos de lembretes diários.
-
-📁 **Infraestrutura como Código (IaC)**
-Repositório focado em automações aplicadas a ecossistemas **Windows Server**, utilizando **Ansible** e **PowerShell** para provisionamento ágil de serviços de rede, governança de compliance e scripts watchdog para modo kiosk.
-
-📁 **Automação de Relatórios (Bacula/Syslog)**
-Pipeline serverless estruturado em **Google Apps Script** focado na otimização de rotinas de auditoria. Captura logs do Gmail, executa data parsing, elimina registros duplicados e gera relatórios em PDF consolidados no Google Drive via triggers agendados.
-
-📁 **Tradutor MSA (Extensão de Navegador)**
-Ferramenta desenvolvida para otimização de fluxos de trabalho operacionais, publicada oficialmente na **Microsoft Edge Store** e **Firefox Add-ons Store (v2.2)**.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernando-msa/)
+[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/fernando-msa)
+[![Lattes](https://img.shields.io/badge/Lattes-CV-003366?style=flat-square)](https://lattes.cnpq.br/6430749481990088)
 
 ---
 
-## 📊 Estatísticas do GitHub
+## Core Competencies
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=fernando-msa&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub de Fernando" height="180em" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=tokyonight&langs_count=7" alt="Linguagens Mais Utilizadas" height="180em" />
-</p>
+**Infrastructure & Operations** — Windows Server, Linux, Bacula, GLPI, Active Directory, network administration  
+**Automation & Scripting** — Google Apps Script, PowerShell, Bash, Ansible  
+**Web Development** — Next.js, TypeScript, React, Node.js, Supabase, Firebase, Vercel  
+**Security** — ISO/IEC 27001, incident management, ONA accreditation documentation
 
 ---
 
-## 📩 Vamos nos conectar?
+## Featured Projects
 
-Seja para conversar sobre DevOps, automação de infraestrutura, arquitetura full-stack ou segurança da informação, sinta-se à vontade para entrar em contato!
+<!-- PINNED_START -->
+### **[secpolicy-hama](https://github.com/fernando-msa/secpolicy-hama)**  
+Information security policy checklist for HAMA, aligned with ISO/IEC 27001. Features PDF export and localStorage persistence. — [Live](https://secpolicy-hama.vercel.app)  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-* 📞 **Telefone/WhatsApp:** (79) 99674-8930
-* ✉️ **E-mail:** ribeirojunior270@gmail.com
-* 💼 **LinkedIn:** [linkedin.com/in/fernando-msa](https://www.linkedin.com/in/fernando-msa/)
-* 🔬 **Currículo Lattes:** [lattes.cnpq.br/6430749481990088](https://lattes.cnpq.br/6430749481990088)
+### **[auxilia-app](https://github.com/fernando-msa/auxilia-app)**  
+Progressive Web App for Movimento Auxilia Brasil (Salesian movement). Covers vocational tracking (PSA), tithe management and mission inscriptions. — [Live](https://auxilia-app.vercel.app)  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+### **[HelpDesk-SergipeTec](https://github.com/fernando-msa/HelpDesk-SergipeTec)**  
+Help Desk ticket management system developed for the SergipeTec technical selection process.  
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+
+### **[prime-pet](https://github.com/fernando-msa/prime-pet)**  
+Service contract and scheduling system for a pet care business, with Firebase Realtime Database integration and admin panel.  
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+<!-- PINNED_END -->
+
+---
+
+## Other Public Repositories
+
+<!-- OTHERS_START -->
+- **[windows-compliance-agent](https://github.com/fernando-msa/windows-compliance-agent)**  
+Agente de conformidade para servidores Windows com verificações ISO 27001 (usuários inativos, updates, antivírus, eventos de segurança, backup). Coleta métricas a cada 5min e envia para dashboard Next.js/Supabase com alertas em tempo real.  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[flowdesk](https://github.com/fernando-msa/flowdesk)**  
+Plataforma web para gestão de chamados internos, checklists operacionais, não conformidades e acompanhamento de SLA.  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[tradutor-msa](https://github.com/fernando-msa/tradutor-msa)**  
+🚀 Extensão leve e segura para tradução instantânea. Disponível para Edge, Chrome e Firefox — [Live](https://fernando-msa.github.io/tradutor-msa/)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+- **[infrapulse](https://github.com/fernando-msa/infrapulse)**  
+InfraPulse é uma plataforma SaaS para gestão operacional de suporte de TI com foco em SLA, produtividade e risco. Ela ajuda times de help desk, service desk e centrais de atendimento a operar com mais previsibilidade, governança e isolamento por empresa.  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[opsboard](https://github.com/fernando-msa/opsboard)**  
+SaaS B2B para monitoramento de SLA, incidentes e status page pública, com arquitetura multi-tenant. — [Live](https://opsboard-w8jp.onrender.com)  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[jornada-CAR-facil](https://github.com/fernando-msa/jornada-CAR-facil)**  
+Este repositório contém a documentação completa, a arquitetura e a estrutura de código inicial desenvolvida para o Desafio 1 do haCARthon: "Jornada CAR Fácil".  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+- **[terraform-hama-iac-governance](https://github.com/fernando-msa/terraform-hama-iac-governance)**  
+Este projeto demonstra a transformação de documentação de governança de TI em infraestrutura automatizável e auditável.  
+![HCL](https://img.shields.io/badge/HCL-555555?style=flat-square)
+
+- **[SecOps-Dashboard](https://github.com/fernando-msa/SecOps-Dashboard)**  
+Centro de Operações de Segurança (SOC) — Gerenciamento centralizado de eventos de segurança, rastreamento de vulnerabilidades, manuais de resposta a incidentes e monitoramento de conformidade.  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[finctrl](https://github.com/fernando-msa/finctrl)**  
+Aplicação web para controle e organização de dados financeiros. — [Live](https://finctrl-beryl.vercel.app)  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[InfraCare](https://github.com/fernando-msa/InfraCare)**  
+Plataforma web de operação hospitalar para monitoramento de ativos, incidentes, tickets, checklists, SLA, auditoria, status de serviços e relatórios. — [Live](https://infra-care.vercel.app)  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[InfraPulse-Social](https://github.com/fernando-msa/InfraPulse-Social)**  
+Plataforma GovTech de inteligencia e orquestracao social para o estado de Sergipe, orientada a integração de dados públicos e sistemas governamentais já existentes.  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[firewallwatch](https://github.com/fernando-msa/firewallwatch)**  
+_No description._ — [Live](https://firewallwatch.lovable.app)  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[gmail-chamados-archiver](https://github.com/fernando-msa/gmail-chamados-archiver)**  
+Chamados archiver  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+- **[gmail-nf-archiver](https://github.com/fernando-msa/gmail-nf-archiver)**  
+Arquivamento NF  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+- **[bacula-log-archiver](https://github.com/fernando-msa/bacula-log-archiver)**  
+Automação para capturar logs de backup do Bacula recebidos via Gmail, convertê-los em PDFs estilizados e organizá-los automaticamente no Google Drive.  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+<!-- OTHERS_END -->
+
+---
+
+## GitHub Stats
+
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=fernando-msa&show_icons=true&theme=default&include_all_commits=true&count_private=true&hide_border=true)
+![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=default&hide_border=true)
+
+---
+
+_Last updated: 2026-06-14 — auto-generated by [generate-readme.js](.github/workflows/update-readme.yml)_
