@@ -55,17 +55,24 @@
 
 ---
 
+---
+
 ## 📈 Estatísticas do GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fernando-msa&show_icons=true&theme=transparent&title_color=007ACC&text_color=7e8c9a&icon_color=007ACC&hide_border=true" width="48%" alt="Estatísticas do GitHub" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=transparent&title_color=007ACC&text_color=7e8c9a&hide_border=true" width="48%" alt="Linguagens Mais Usadas" />
+  <a href="https://github.com/fernando-msa">
+    <img src="https://github-readme-stats.vercel.app/api?username=fernando-msa&show_icons=true&theme=dark&title_color=007ACC&icon_color=007ACC&text_color=7e8c9a&bg_color=0d1117&hide_border=true" align="center" alt="Estatísticas do GitHub" />
+  </a>
+  <a href="https://github.com/fernando-msa">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=dark&title_color=007ACC&text_color=7e8c9a&bg_color=0d1117&hide_border=true" align="center" alt="Linguagens Mais Usadas" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fernando-msa&theme=transparent&fire=007ACC&ring=007ACC&currStreakNum=007ACC&currStreakLabel=7e8c9a&sideNums=7e8c9a&sideLabels=7e8c9a&dates=7e8c9a&hide_border=true" width="97%" alt="Streak do GitHub" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fernando-msa&theme=dark&fire=007ACC&ring=007ACC&currStreakNum=007ACC&currStreakLabel=7e8c9a&sideNums=7e8c9a&sideLabels=7e8c9a&dates=7e8c9a&background=0d1117&hide_border=true" width="100%" alt="Streak do GitHub" />
 </p>
 
+---
 ---
 
 ## 🤝 Conecte-se Comigo
