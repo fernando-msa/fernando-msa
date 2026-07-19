@@ -1,122 +1,85 @@
-# Fernando Junior
-
-**IT Infrastructure Analyst | Computer Engineering Student**  
-Aracaju, Sergipe, Brazil
-
----
-
-IT Infrastructure Analyst at IGH/HAMA with experience in server administration, backup management (Bacula), IT service management (GLPI), and infrastructure automation. Computer Engineering student at Descomplica.
-
-My work sits at the intersection of enterprise infrastructure, cybersecurity, and full-stack web development — building internal tooling and automations that make systems operate more reliably.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernando-msa/)
-[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/fernando-msa)
-[![Lattes](https://img.shields.io/badge/Lattes-CV-003366?style=flat-square)](https://lattes.cnpq.br/6430749481990088)
+<div align="center">
+  <!-- Imagem de Saudação Customizada (Substituindo o texto puro por estilo tipográfico) -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3500&pause=1000&color=007ACC&center=true&vCenter=true&width=500&height=50&lines=Ol%C3%A1%2C+eu+sou+o+Fernando!+%F0%9F%91%8B;Analista+de+Infraestrutura;Estudante+de+Engenharia" alt="Typing SVG" />
+</div>
 
 ---
 
-## Core Competencies
+## 👤 Sobre Mim
 
-**Infrastructure & Operations** — Windows Server, Linux, Bacula, GLPI, Active Directory, network administration  
-**Automation & Scripting** — Google Apps Script, PowerShell, Bash, Ansible  
-**Web Development** — Next.js, TypeScript, React, Node.js, Supabase, Firebase, Vercel  
-**Security** — ISO/IEC 27001, incident management, ONA accreditation documentation
-
----
-
-## Featured Projects
-
-<!-- PINNED_START -->
-### **[secpolicy-hama](https://github.com/fernando-msa/secpolicy-hama)**  
-Information security policy checklist for HAMA, aligned with ISO/IEC 27001. Features PDF export and localStorage persistence. — [Live](https://secpolicy-hama.vercel.app)  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-### **[auxilia-app](https://github.com/fernando-msa/auxilia-app)**  
-Progressive Web App for Movimento Auxilia Brasil (Salesian movement). Covers vocational tracking (PSA), tithe management and mission inscriptions. — [Live](https://auxilia-app.vercel.app)  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-### **[HelpDesk-SergipeTec](https://github.com/fernando-msa/HelpDesk-SergipeTec)**  
-Help Desk ticket management system developed for the SergipeTec technical selection process.  
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
-
-### **[prime-pet](https://github.com/fernando-msa/prime-pet)**  
-Service contract and scheduling system for a pet care business, with Firebase Realtime Database integration and admin panel.  
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
-<!-- PINNED_END -->
+<table align="center">
+  <tr>
+    <td valign="top" width="50%">
+      <p>Olá! Sou um <b>Analista de Infraestrutura</b> e estudante de <b>Engenharia da Computação</b> (5° Período) baseado em Aracaju, SE. Sou apaixonado por tecnologia, automação e resolução de problemas complexos.</p>
+      <p>Atualmente, estou focado em <b>Cibersegurança Corporativa</b> e no desenvolvimento de soluções open-source que geram impacto real.</p>
+      <br>
+      💼 <b>Atuação:</b> Analista de Infraestrutura & Software Developer<br>
+      🌱 <b>Estudando:</b> Cibersegurança, Engenharia de Computação & DevOps
+    </td>
+    <td valign="top" width="50%">
+      <p align="center">
+        <!-- Gif/Imagem de Computador/Código estilizada igual ao perfil de referência -->
+        <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="320px" alt="Coding GIF">
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Other Public Repositories
+## 🛠️ Tecnologias e Ferramentas
 
-<!-- OTHERS_START -->
-- **[firewallwatch](https://github.com/fernando-msa/firewallwatch)**  
-_No description._ — [Live](https://firewallwatch.lovable.app)  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+### 🖥️ Infraestrutura & Automação
+<p align="left">
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows-server&logoColor=white" alt="Windows Server" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</p>
 
-- **[infrapulse](https://github.com/fernando-msa/infrapulse)**  
-InfraPulse é uma plataforma SaaS para gestão operacional de suporte de TI com foco em SLA, produtividade e risco. Ela ajuda times de help desk, service desk e centrais de atendimento a operar com mais previsibilidade, governança e isolamento por empresa.  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+### 💻 Desenvolvimento Web & Mobile
+<p align="left">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+</p>
 
-- **[opsboard](https://github.com/fernando-msa/opsboard)**  
-SaaS B2B para monitoramento de SLA, incidentes e status page pública, com arquitetura multi-tenant. — [Live](https://opsboard-w8jp.onrender.com)  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-- **[windows-compliance-agent](https://github.com/fernando-msa/windows-compliance-agent)**  
-Agente de conformidade para servidores Windows com verificações ISO 27001 (usuários inativos, updates, antivírus, eventos de segurança, backup). Coleta métricas a cada 5min e envia para dashboard Next.js/Supabase com alertas em tempo real.  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-- **[flowdesk](https://github.com/fernando-msa/flowdesk)**  
-Plataforma web para gestão de chamados internos, checklists operacionais, não conformidades e acompanhamento de SLA.  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-- **[tradutor-msa](https://github.com/fernando-msa/tradutor-msa)**  
-🚀 Extensão leve e segura para tradução instantânea. Disponível para Edge, Chrome e Firefox — [Live](https://fernando-msa.github.io/tradutor-msa/)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-- **[jornada-CAR-facil](https://github.com/fernando-msa/jornada-CAR-facil)**  
-Este repositório contém a documentação completa, a arquitetura e a estrutura de código inicial desenvolvida para o Desafio 1 do haCARthon: "Jornada CAR Fácil".  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-- **[terraform-hama-iac-governance](https://github.com/fernando-msa/terraform-hama-iac-governance)**  
-Este projeto demonstra a transformação de documentação de governança de TI em infraestrutura automatizável e auditável.  
-![HCL](https://img.shields.io/badge/HCL-555555?style=flat-square)
-
-- **[SecOps-Dashboard](https://github.com/fernando-msa/SecOps-Dashboard)**  
-Centro de Operações de Segurança (SOC) — Gerenciamento centralizado de eventos de segurança, rastreamento de vulnerabilidades, manuais de resposta a incidentes e monitoramento de conformidade.  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-- **[finctrl](https://github.com/fernando-msa/finctrl)**  
-Aplicação web para controle e organização de dados financeiros. — [Live](https://finctrl-beryl.vercel.app)  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-- **[InfraCare](https://github.com/fernando-msa/InfraCare)**  
-Plataforma web de operação hospitalar para monitoramento de ativos, incidentes, tickets, checklists, SLA, auditoria, status de serviços e relatórios. — [Live](https://infra-care.vercel.app)  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-- **[InfraPulse-Social](https://github.com/fernando-msa/InfraPulse-Social)**  
-Plataforma GovTech de inteligencia e orquestracao social para o estado de Sergipe, orientada a integração de dados públicos e sistemas governamentais já existentes.  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-- **[gmail-chamados-archiver](https://github.com/fernando-msa/gmail-chamados-archiver)**  
-Chamados archiver  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-- **[gmail-nf-archiver](https://github.com/fernando-msa/gmail-nf-archiver)**  
-Arquivamento NF  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-- **[bacula-log-archiver](https://github.com/fernando-msa/bacula-log-archiver)**  
-Automação para capturar logs de backup do Bacula recebidos via Gmail, convertê-los em PDFs estilizados e organizá-los automaticamente no Google Drive.  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-<!-- OTHERS_END -->
+### 🛡️ Segurança & Outros
+<p align="left">
+  <img src="https://img.shields.io/badge/Cybersecurity-000000?style=for-the-badge&logo=shieldsdotio&logoColor=white" alt="Cybersecurity" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+</p>
 
 ---
 
-## GitHub Stats
+## 📈 Estatísticas do GitHub
 
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=fernando-msa&show_icons=true&theme=default&include_all_commits=true&count_private=true&hide_border=true)
-![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=default&hide_border=true)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=fernando-msa&show_icons=true&theme=transparent&title_color=007ACC&text_color=7e8c9a&icon_color=007ACC&hide_border=true" width="48%" alt="Estatísticas do GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernando-msa&layout=compact&theme=transparent&title_color=007ACC&text_color=7e8c9a&hide_border=true" width="48%" alt="Linguagens Mais Usadas" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fernando-msa&theme=transparent&fire=007ACC&ring=007ACC&currStreakNum=007ACC&currStreakLabel=7e8c9a&sideNums=7e8c9a&sideLabels=7e8c9a&dates=7e8c9a&hide_border=true" width="97%" alt="Streak do GitHub" />
+</p>
 
 ---
 
-_Last updated: 2026-07-19 — auto-generated by [generate-readme.js](.github/workflows/update-readme.yml)_
+## 🤝 Conecte-se Comigo
+
+<p align="center">
+  <a href="https://linkedin.com/in/fernando-msa" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:ribeirojunior270@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+<div align="center">
+  <br />
+  <img src="https://komarev.com/ghpvc/?username=fernando-msa&color=007acc&style=flat-square&label=VISITAS+AO+PERFIL" alt="Contador de Visitas" />
+</div>
