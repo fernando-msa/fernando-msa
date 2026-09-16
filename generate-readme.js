@@ -5,52 +5,59 @@ import fs from 'node:fs';
 
 const USERNAME = 'fernando-msa';
 
-// Repos to always pin at the top, in this order (slug = repo name)
-const PINNED = [
+// Repositórios do Grupo FJJ a serem destacados como primeira prioridade
+const GRUPO_FJJ_PROJECTS = [
+  {
+    name: 'FJJ Soluções Tecnológicas (Portal & Portfólio)',
+    repoUrl: 'https://github.com/FJJGroup/FJJ_portfolio',
+    liveUrl: 'https://grupofjj.com.br/',
+    description:
+      'Portal institucional oficial e showcase corporativo da software house. Arquitetura multi-páginas de alta performance desenvolvida com Vite, Tailwind CSS, partículas neurais interativas em Canvas 2D, efeitos 3D tilt e SEO técnico avançado (Schema.org JSON-LD).',
+    badge: '![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)',
+  },
+  {
+    name: 'FJJ PDV',
+    repoUrl: 'https://github.com/FJJGroup/FJJ_PDV',
+    liveUrl: 'https://pdv.grupofjj.com.br/',
+    demoUrl: 'https://pdv.grupofjj.com.br/app',
+    description:
+      'Sistema de Ponto de Venda (PDV) de alta disponibilidade e operação 100% Offline-First para varejo. Desenvolvido com persistência local em IndexedDB, sincronização assíncrona resiliente com Supabase em nuvem, impressão térmica de cupons ESC/POS (80mm/58mm), módulo White-Label e interface dark tech.',
+    badge: '![Next.js](https://img.shields.io/badge/Next.js%2015-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)',
+  },
+  {
+    name: 'FJJ Connect',
+    repoUrl: 'https://github.com/FJJGroup/FJJ_Connect',
+    liveUrl: 'https://connect.grupofjj.com.br/',
+    description:
+      'Plataforma SaaS de IA Conversacional para Instagram e qualificação inteligente de leads comerciais. Integração 100% oficial com Meta Graph API, agente autônomo baseado em Google Gemini 1.5 Flash, atendimento em tempo real com live chat e hand-off humano, quick replies, gatilhos de stories e webhooks CRM.',
+    badge: '![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Gemini AI](https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white) ![Meta API](https://img.shields.io/badge/Meta%20Graph%20API-0081FB?style=flat-square&logo=meta&logoColor=white)',
+  },
+  {
+    name: 'PactoAI',
+    repoUrl: '',
+    liveUrl: 'https://pactoia.grupofjj.com.br/login',
+    description:
+      'Plataforma LegalTech SaaS para análise semântica e auditoria automatizada de minutas contratuais. Identificação preventiva de cláusulas de risco, verificação de conformidade regulatória com a LGPD e geração de pareceres estruturados com inteligência artificial.',
+    badge: '![LegalTech](https://img.shields.io/badge/LegalTech%20SaaS-0EA5E9?style=flat-square) ![LGPD](https://img.shields.io/badge/LGPD%20Compliance-10B981?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)',
+  },
+];
+
+// Repos a ignorar na listagem geral (repositório do perfil, etc.)
+const SKIP = [USERNAME, 'fernando-msa'];
+
+// Repositórios já destacados nas seções principais
+const FEATURED_NAMES = new Set([
+  'metrics-compliance-agent',
+  'windows-compliance-agent',
+  'terraform-hama-iac-governance',
   'secpolicy-hama',
   'auxilia-app',
   'mob-app',
-  'HelpDesk-SergipeTec',
+  'infrapulse-social',
+  'InfraPulse-Social',
   'prime-pet',
-  'Tradutor-MSA-Extensao',
-];
-
-// Repos to skip entirely (forks, meta repos, etc.)
-const SKIP = [USERNAME, 'fernando-msa']; // skip the profile repo itself
-
-// Manual overrides: add/correct description or live URL for specific repos
-const OVERRIDES = {
-  'secpolicy-hama': {
-    description:
-      'Information security policy checklist for HAMA, aligned with ISO/IEC 27001. Features PDF export and localStorage persistence.',
-    homepage: 'https://secpolicy-hama.vercel.app',
-  },
-  'auxilia-app': {
-    description:
-      'Progressive Web App for Movimento Auxilia Brasil (Salesian movement). Covers vocational tracking (PSA), tithe management and mission inscriptions.',
-    homepage: 'https://auxilia-app.vercel.app',
-  },
-  'mob-app': {
-    description:
-      'PWA for the Billings Ovulation Method (MOB). Full auth flow, push notifications and cron jobs.',
-    homepage: 'https://mob-app-five.vercel.app',
-  },
-  'HelpDesk-SergipeTec': {
-    description:
-      'Help Desk ticket management system developed for the SergipeTec technical selection process.',
-    homepage: '',
-  },
-  'prime-pet': {
-    description:
-      'Service contract and scheduling system for a pet care business, with Firebase Realtime Database integration and admin panel.',
-    homepage: '',
-  },
-  'Tradutor-MSA-Extensao': {
-    description:
-      'Lightweight browser extension for instant text translation. Published on the Microsoft Edge Store and Firefox Add-ons.',
-    homepage: '',
-  },
-};
+  'HelpDesk-SergipeTec',
+]);
 
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
 
@@ -90,6 +97,7 @@ function langBadge(lang) {
     CSS: ['1572B6', 'css3', 'white'],
     Shell: ['4EAA25', 'gnubash', 'white'],
     PowerShell: ['5391FE', 'powershell', 'white'],
+    HCL: ['555555', null, 'white'],
   };
   const [color, logo, textColor] = map[lang] || ['555555', null, 'white'];
   const l = encodeURIComponent(lang);
@@ -98,81 +106,131 @@ function langBadge(lang) {
 
 // ─── README BUILDER ──────────────────────────────────────────────────────────
 
-function buildProjectRow(repo) {
-  const override = OVERRIDES[repo.name] || {};
-  const desc = override.description || repo.description || '_No description._';
-  const url = repo.html_url;
-  const home = override.homepage !== undefined ? override.homepage : repo.homepage;
-  const lang = repo.language;
-  const stars = repo.stargazers_count;
-
-  const liveLink = home ? ` — [Live](${home})` : '';
-  const starStr = stars > 0 ? ` ⭐ ${stars}` : '';
-  const langStr = lang ? `  \n${langBadge(lang)}` : '';
-
-  return `**[${repo.name}](${url})**${starStr}  \n${desc}${liveLink}${langStr}`;
+function buildFjjSection() {
+  return GRUPO_FJJ_PROJECTS.map((p) => {
+    const live = p.liveUrl ? ` — [Live](${p.liveUrl})` : '';
+    const demo = p.demoUrl ? ` · [Demo Online](${p.demoUrl})` : '';
+    const title = p.repoUrl ? `**[${p.name}](${p.repoUrl})**` : `**${p.name}**`;
+    return `- ${title}${live}${demo}  \n  ${p.description}  \n  ${p.badge}`;
+  }).join('\n\n');
 }
 
-function buildReadme(pinned, others) {
-  const pinnedSection = pinned.map((r) => `### ${buildProjectRow(r)}`).join('\n\n');
+function buildReadme(otherRepos) {
+  const fjjSection = buildFjjSection();
 
-  const otherSection =
-    others.length > 0
-      ? others.map((r) => `- ${buildProjectRow(r)}`).join('\n\n')
-      : '_No additional public repositories._';
+  const otherList =
+    otherRepos.length > 0
+      ? otherRepos
+          .map((r) => {
+            const desc = r.description ? ` — ${r.description}` : '';
+            const stars = r.stargazers_count > 0 ? ` ⭐ ${r.stargazers_count}` : '';
+            const badge = r.language ? ` ${langBadge(r.language)}` : '';
+            return `- [${r.name}](${r.html_url})${stars}${desc}${badge}`;
+          })
+          .join('\n')
+      : '_Nenhum repositório adicional encontrado._';
 
-  const now = new Date().toISOString().split('T')[0];
+  return `<div align="center">
 
-  return `# Fernando Junior
+![Profile views](https://komarev.com/ghpvc/?username=fernando-msa&color=blueviolet&style=flat-square&label=Profile+views)
 
-**IT Infrastructure Analyst | Computer Engineering Student**  
-Aracaju, Sergipe, Brazil
+# Hi, I'm Fernando 👋
 
----
+### IT Infrastructure Analyst · Windows Server / PowerShell · Founder & Full-Stack Engineer at Grupo FJJ ☁️🚀
 
-IT Infrastructure Analyst at IGH/HAMA with experience in server administration, backup management (Bacula), IT service management (GLPI), and infrastructure automation. Computer Engineering student at Descomplica.
+Keeping hospital infrastructure compliant, monitored and running,  
+while architecting scalable SaaS platforms, AI systems and offline-first software at **[Grupo FJJ](https://grupofjj.com.br)**. 🏥🧪⚡
 
-My work sits at the intersection of enterprise infrastructure, cybersecurity, and full-stack web development — building internal tooling and automations that make systems operate more reliably.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernando-msa/)
-[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/fernando-msa)
-[![Lattes](https://img.shields.io/badge/Lattes-CV-003366?style=flat-square)](https://lattes.cnpq.br/6430749481990088)
-
----
-
-## Core Competencies
-
-**Infrastructure & Operations** — Windows Server, Linux, Bacula, GLPI, Active Directory, network administration  
-**Automation & Scripting** — Google Apps Script, PowerShell, Bash, Ansible  
-**Web Development** — Next.js, TypeScript, React, Node.js, Supabase, Firebase, Vercel  
-**Security** — ISO/IEC 27001, incident management, ONA accreditation documentation
+</div>
 
 ---
 
-## Featured Projects
+### 🐈 About
 
-<!-- PINNED_START -->
-${pinnedSection}
-<!-- PINNED_END -->
-
----
-
-## Other Public Repositories
-
-<!-- OTHERS_START -->
-${otherSection}
-<!-- OTHERS_END -->
+- 🏢 **Founding & Engineering at [Grupo FJJ](https://grupofjj.com.br)**: Building B2B SaaS solutions, high-conversion web architectures, and conversational AI agents ([FJJGroup](https://github.com/FJJGroup)).
+- 🛒 **Building [FJJ PDV](https://pdv.grupofjj.com.br/)**: An offline-first point-of-sale system for retail with local IndexedDB storage, resilient Supabase cloud sync, ESC/POS thermal printing, and white-label customization.
+- 🤖 **Building [FJJ Connect](https://connect.grupofjj.com.br/)**: An AI-powered conversational marketing and lead qualification SaaS for Instagram (Google Gemini 1.5 Flash + official Meta Graph API) with live chat human hand-off.
+- ⚖️ **Co-building [PactoAI](https://pactoia.grupofjj.com.br/login)**: LegalTech SaaS for automated contract auditing, clause risk detection, and LGPD compliance.
+- 💻 **By day at HAMA**: Deep in **Windows Server / PowerShell / Bacula / GLPI / Grafana / Looker Studio**, keeping mission-critical hospital infrastructure ISO 27001 & LGPD compliant.
+- 🎨 **Full-Stack**: **Next.js, React, TypeScript, Tailwind CSS, Node.js & Supabase**.
+- ☁️ **Cloud & DevOps**: Translating governance and compliance controls into **Terraform / AWS** infrastructure as code.
+- ⚡ **Fun fact**: I'll turn a manual audit checklist into a dashboard before you finish filling it out.
 
 ---
 
-## GitHub Stats
+### 📦 Projects
 
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=${USERNAME}&show_icons=true&theme=default&include_all_commits=true&count_private=true&hide_border=true)
-![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact&theme=default&hide_border=true)
+#### 🚀 Grupo FJJ & SaaS Ecosystem
+
+${fjjSection}
+
+#### 🏥 Enterprise Infrastructure & Healthcare
+
+- **[metrics-compliance-agent](https://github.com/fernando-msa)**  
+  Production compliance and metrics verification agent for Windows Servers at HAMA, integrating PowerShell, Next.js/Supabase backend, real-time dashboard, GLPI webhooks, and ISO 27001 audit PDF export.  
+  ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+
+- **[terraform-hama-iac-governance](https://github.com/fernando-msa)**  
+  Portfolio project translating HAMA's paper-based governance controls into AWS infrastructure code — tagging, IAM, S3 backup, CloudWatch SLA monitoring, rack access audit trails, and a Python Lambda for Wi-Fi checks.  
+  ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+- **[secpolicy-hama](https://github.com/fernando-msa/secpolicy-hama)** — [Live](https://secpolicy-hama.vercel.app)  
+  Information security policy checklist tool aligned with ISO/IEC 27001, featuring PDF export and localStorage persistence.  
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+#### 🌐 Web Apps & Community
+
+- **[auxilia-app](https://github.com/fernando-msa/auxilia-app)** — [Live](https://auxilia-app.vercel.app)  
+  Next.js 15 PWA for the Salesian Movimento Auxilia Brasil, with Supabase RLS across three modules (PSA, Together, Missões).  
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+
+- **[mob-app](https://github.com/fernando-msa/mob-app)** — [Live](https://mob-app-five.vercel.app)  
+  Next.js 14 PWA for the Billings Ovulation Method, with Supabase auth, VAPID push notifications, and cron-based reminders.  
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[infrapulse-social](https://github.com/fernando-msa/InfraPulse-Social)**  
+  GovTech platform (NestJS + Next.js + FastAPI) integrating six Brazilian public data connectors for Sergipe.  
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[prime-pet](https://github.com/fernando-msa/prime-pet)**  
+  Service contract and scheduling system for pet care businesses, with Firebase Realtime Database integration and admin panel.  
+  ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+
+<details>
+<summary><b>📂 Outros Repositórios Públicos</b></summary>
+<br>
+
+${otherList}
+
+</details>
 
 ---
 
-_Last updated: ${now} — auto-generated by [generate-readme.js](.github/workflows/update-readme.yml)_
+### 💼 Tech stack
+
+<div align="center">
+
+![My skills](https://skillicons.dev/icons?i=windows,ts,nextjs,react,tailwind,nodejs,supabase,postgres,python,terraform,aws,docker,powershell,bash,git,github,vscode,grafana&theme=dark)
+
+</div>
+
+---
+
+### 📊 GitHub Activity
+
+<div align="center">
+
+![Streak](https://streak-stats.demolab.com?user=fernando-msa&theme=tokyonight&hide_border=true)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=fernando-msa&theme=tokyo-night&hide_border=true)
+
+</div>
+
+<!-- 🔗 Connect: https://www.linkedin.com/in/fernando-msa/ | https://grupofjj.com.br -->
+
+<div align="center">
+<br>
+<i>Always learning. Always building.</i>
+</div>
 `;
 }
 
@@ -194,20 +252,15 @@ async function main() {
 
   console.log(`Fetched ${allRepos.length} repos.`);
 
-  // Filter out skipped and forked repos
+  // Filtra repositórios ignorados e forks
   const repos = allRepos.filter((r) => !SKIP.includes(r.name) && !r.fork);
 
-  // Build pinned list (preserving manual order, skipping missing ones)
-  const repoMap = Object.fromEntries(repos.map((r) => [r.name, r]));
-  const pinnedRepos = PINNED.filter((n) => repoMap[n]).map((n) => repoMap[n]);
-
-  // Remaining repos (not in pinned), sorted by last push
-  const pinnedNames = new Set(PINNED);
+  // Repositórios não destacados na seção principal, ordenados pelo último push
   const otherRepos = repos
-    .filter((r) => !pinnedNames.has(r.name))
+    .filter((r) => !FEATURED_NAMES.has(r.name))
     .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
 
-  const readme = buildReadme(pinnedRepos, otherRepos);
+  const readme = buildReadme(otherRepos);
   fs.writeFileSync('README.md', readme, 'utf8');
   console.log('README.md written successfully.');
 }
