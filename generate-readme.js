@@ -13,7 +13,8 @@ const GRUPO_FJJ_PROJECTS = [
     liveUrl: 'https://grupofjj.com.br/',
     description:
       'Portal institucional oficial e showcase corporativo da software house. Arquitetura multi-páginas de alta performance desenvolvida com Vite, Tailwind CSS, partículas neurais interativas em Canvas 2D, efeitos 3D tilt e SEO técnico avançado (Schema.org JSON-LD).',
-    badge: '![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)',
+    badge:
+      '![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)',
   },
   {
     name: 'FJJ PDV',
@@ -22,7 +23,8 @@ const GRUPO_FJJ_PROJECTS = [
     demoUrl: 'https://pdv.grupofjj.com.br/app',
     description:
       'Sistema de Ponto de Venda (PDV) de alta disponibilidade e operação 100% Offline-First para varejo. Desenvolvido com persistência local em IndexedDB, sincronização assíncrona resiliente com Supabase em nuvem, impressão térmica de cupons ESC/POS (80mm/58mm), módulo White-Label e interface dark tech.',
-    badge: '![Next.js](https://img.shields.io/badge/Next.js%2015-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)',
+    badge:
+      '![Next.js](https://img.shields.io/badge/Next.js%2015-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)',
   },
   {
     name: 'FJJ Connect',
@@ -30,7 +32,8 @@ const GRUPO_FJJ_PROJECTS = [
     liveUrl: 'https://connect.grupofjj.com.br/',
     description:
       'Plataforma SaaS de IA Conversacional para Instagram e qualificação inteligente de leads comerciais. Integração 100% oficial com Meta Graph API, agente autônomo baseado em Google Gemini 1.5 Flash, atendimento em tempo real com live chat e hand-off humano, quick replies, gatilhos de stories e webhooks CRM.',
-    badge: '![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Gemini AI](https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white) ![Meta API](https://img.shields.io/badge/Meta%20Graph%20API-0081FB?style=flat-square&logo=meta&logoColor=white)',
+    badge:
+      '![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Gemini AI](https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white) ![Meta API](https://img.shields.io/badge/Meta%20Graph%20API-0081FB?style=flat-square&logo=meta&logoColor=white)',
   },
   {
     name: 'PactoAI',
@@ -38,7 +41,8 @@ const GRUPO_FJJ_PROJECTS = [
     liveUrl: 'https://pactoia.grupofjj.com.br/login',
     description:
       'Plataforma LegalTech SaaS para análise semântica e auditoria automatizada de minutas contratuais. Identificação preventiva de cláusulas de risco, verificação de conformidade regulatória com a LGPD e geração de pareceres estruturados com inteligência artificial.',
-    badge: '![LegalTech](https://img.shields.io/badge/LegalTech%20SaaS-0EA5E9?style=flat-square) ![LGPD](https://img.shields.io/badge/LGPD%20Compliance-10B981?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)',
+    badge:
+      '![LegalTech](https://img.shields.io/badge/LegalTech%20SaaS-0EA5E9?style=flat-square) ![LGPD](https://img.shields.io/badge/LGPD%20Compliance-10B981?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)',
   },
 ];
 
@@ -61,8 +65,29 @@ const FEATURED_NAMES = new Set([
 
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
 
+function sanitizeText(str) {
+  if (!str || typeof str !== 'string') return '';
+  return str.replace(/[<>&]/g, (c) => {
+    switch (c) {
+      case '<':
+        return '&lt;';
+      case '>':
+        return '&gt;';
+      case '&':
+        return '&amp;';
+      default:
+        return c;
+    }
+  });
+}
+
 function get(url, token) {
   return new Promise((resolve, reject) => {
+    // Validação de segurança: garantir que apenas a API oficial do GitHub seja acessada
+    if (!url.startsWith('https://api.github.com/')) {
+      return reject(new Error('Invalid URL: only GitHub API endpoints are permitted.'));
+    }
+
     const options = {
       headers: {
         'User-Agent': 'readme-generator',
@@ -76,7 +101,13 @@ function get(url, token) {
         res.on('data', (d) => (body += d));
         res.on('end', () => {
           try {
-            resolve(JSON.parse(body));
+            const data = JSON.parse(body);
+            if (res.statusCode && res.statusCode >= 400) {
+              return reject(
+                new Error(`GitHub API error (${res.statusCode}): ${data.message || body}`)
+              );
+            }
+            resolve(data);
           } catch (e) {
             reject(e);
           }
@@ -122,10 +153,11 @@ function buildReadme(otherRepos) {
     otherRepos.length > 0
       ? otherRepos
           .map((r) => {
-            const desc = r.description ? ` — ${r.description}` : '';
+            const safeName = sanitizeText(r.name);
+            const desc = r.description ? ` — ${sanitizeText(r.description)}` : '';
             const stars = r.stargazers_count > 0 ? ` ⭐ ${r.stargazers_count}` : '';
             const badge = r.language ? ` ${langBadge(r.language)}` : '';
-            return `- [${r.name}](${r.html_url})${stars}${desc}${badge}`;
+            return `- [${safeName}](${r.html_url})${stars}${desc}${badge}`;
           })
           .join('\n')
       : '_Nenhum repositório adicional encontrado._';
