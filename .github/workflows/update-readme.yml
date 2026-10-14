@@ -38,8 +38,9 @@ jobs:
         env:
           # GH_TOKEN is a Personal Access Token stored as a repository secret.
           # It needs the "public_repo" scope (or "repo" for private repos).
-          # Without it the script still works but may hit rate limits.
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          # Without it, falls back to the workflow's own GITHUB_TOKEN to avoid
+          # the low unauthenticated API rate limit.
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
         run: node generate-readme.js
 
       - name: Commit and push if changed
