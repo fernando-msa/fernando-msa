@@ -30,15 +30,15 @@ while architecting scalable SaaS platforms, AI systems and offline-first softwar
 
 #### 🚀 Grupo FJJ & SaaS Ecosystem
 
-- **[FJJ Soluções Tecnológicas (Portal & Portfólio)](https://github.com/FJJGroup/FJJ_portfolio)** — [Live](https://grupofjj.com.br/)  
+- **FJJ Soluções Tecnológicas (Portal & Portfólio)** — [Live](https://grupofjj.com.br/)  
   Portal institucional oficial e showcase corporativo da software house. Arquitetura multi-páginas de alta performance desenvolvida com Vite, Tailwind CSS, partículas neurais interativas em Canvas 2D, efeitos 3D tilt e SEO técnico avançado (Schema.org JSON-LD).  
   ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-- **[FJJ PDV](https://github.com/FJJGroup/FJJ_PDV)** — [Live](https://pdv.grupofjj.com.br/) · [Demo Online](https://pdv.grupofjj.com.br/app)  
+- **FJJ PDV** — [Live](https://pdv.grupofjj.com.br/) · [Demo Online](https://pdv.grupofjj.com.br/app)  
   Sistema de Ponto de Venda (PDV) de alta disponibilidade e operação 100% Offline-First para varejo. Desenvolvido com persistência local em IndexedDB, sincronização assíncrona resiliente com Supabase em nuvem, impressão térmica de cupons ESC/POS (80mm/58mm), módulo White-Label e interface dark tech.  
   ![Next.js](https://img.shields.io/badge/Next.js%2015-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-- **[FJJ Connect](https://github.com/FJJGroup/FJJ_Connect)** — [Live](https://connect.grupofjj.com.br/)  
+- **FJJ Connect** — [Live](https://connect.grupofjj.com.br/)  
   Plataforma SaaS de IA Conversacional para Instagram e qualificação inteligente de leads comerciais. Integração 100% oficial com Meta Graph API, agente autônomo baseado em Google Gemini 1.5 Flash, atendimento em tempo real com live chat e hand-off humano, quick replies, gatilhos de stories e webhooks CRM.  
   ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Gemini AI](https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white) ![Meta API](https://img.shields.io/badge/Meta%20Graph%20API-0081FB?style=flat-square&logo=meta&logoColor=white)
 
@@ -46,19 +46,33 @@ while architecting scalable SaaS platforms, AI systems and offline-first softwar
   Plataforma LegalTech SaaS para análise semântica e auditoria automatizada de minutas contratuais. Identificação preventiva de cláusulas de risco, verificação de conformidade regulatória com a LGPD e geração de pareceres estruturados com inteligência artificial.  
   ![LegalTech](https://img.shields.io/badge/LegalTech%20SaaS-0EA5E9?style=flat-square) ![LGPD](https://img.shields.io/badge/LGPD%20Compliance-10B981?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
+#### 📈 B2B SaaS
+
+- **[opsboard](https://github.com/fernando-msa/opsboard)**
+  Multi-tenant B2B SaaS for SLA monitoring, incident management and public status pages — organization-scoped data isolation, JWT auth with Google SSO, ticket SLA tracking and per-organization status pages.
+  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
 #### 🏥 Enterprise Infrastructure & Healthcare
 
-- **[metrics-compliance-agent](https://github.com/fernando-msa)**  
+- **[windows-compliance-agent](https://github.com/fernando-msa/windows-compliance-agent)**
   Production compliance and metrics verification agent for Windows Servers at HAMA, integrating PowerShell, Next.js/Supabase backend, real-time dashboard, GLPI webhooks, and ISO 27001 audit PDF export.  
   ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 
-- **[terraform-hama-iac-governance](https://github.com/fernando-msa)**  
+- **[terraform-hama-iac-governance](https://github.com/fernando-msa/terraform-hama-iac-governance)**
   Portfolio project translating HAMA's paper-based governance controls into AWS infrastructure code — tagging, IAM, S3 backup, CloudWatch SLA monitoring, rack access audit trails, and a Python Lambda for Wi-Fi checks.  
   ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 - **[secpolicy-hama](https://github.com/fernando-msa/secpolicy-hama)** — [Live](https://secpolicy-hama.vercel.app)  
-  Information security policy checklist tool aligned with ISO/IEC 27001, featuring PDF export and localStorage persistence.  
+  Information security policy checklist tool aligned with ISO/IEC 27001, featuring PDF export and localStorage persistence.
   ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[firewallwatch](https://github.com/fernando-msa/firewallwatch)**
+  Firewall log analysis platform: parses iptables/pfSense, Cisco ASA, Fortinet/FortiGate and generic CSV logs, flags suspicious IPs and attack patterns, computes a 0–100 risk score and exports PDF reports.
+  ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+
+- **[hama-apps-script-automations](https://github.com/fernando-msa/hama-apps-script-automations)**
+  Google Apps Script automations that turn Gmail into organized Google Drive archives: Bacula backup logs as PDF, supplier invoices by year/month/vendor, and service-desk tickets from Rasptelles, Ksys and SMED.
+  ![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=flat-square&logo=google&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 #### 🌐 Web Apps & Community
 
@@ -66,7 +80,7 @@ while architecting scalable SaaS platforms, AI systems and offline-first softwar
   Next.js 15 PWA for the Salesian Movimento Auxilia Brasil, with Supabase RLS across three modules (PSA, Together, Missões).  
   ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
-- **[mob-app](https://github.com/fernando-msa/mob-app)** — [Live](https://mob-app-five.vercel.app)  
+- **[Billings Life](https://github.com/fernando-msa/Billings-Life---M-todo-de-Ovula-o-Billings)** — [Live](https://mob-app-five.vercel.app)
   Next.js 14 PWA for the Billings Ovulation Method, with Supabase auth, VAPID push notifications, and cron-based reminders.  
   ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
@@ -82,19 +96,7 @@ while architecting scalable SaaS platforms, AI systems and offline-first softwar
 <summary><b>📂 Outros Repositórios Públicos</b></summary>
 <br>
 
-- [opsboard](https://github.com/fernando-msa/opsboard) — SaaS B2B para monitoramento de SLA, incidentes e status page pública, com arquitetura multi-tenant. ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-- [EngLaudo](https://github.com/fernando-msa/EngLaudo) — Plataforma de Vistorias e Laudos Técnicos em Campo
-- [flowdesk](https://github.com/fernando-msa/flowdesk) — Plataforma web para gestão de chamados internos, checklists operacionais, não conformidades e acompanhamento de SLA. ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-- [jornada-CAR-facil](https://github.com/fernando-msa/jornada-CAR-facil) — Este repositório contém a documentação completa, a arquitetura e a estrutura de código inicial desenvolvida para o Desafio 1 do haCARthon: "Jornada CAR Fácil". ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-- [firewallwatch](https://github.com/fernando-msa/firewallwatch) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-- [infrapulse](https://github.com/fernando-msa/infrapulse) — InfraPulse é uma plataforma SaaS para gestão operacional de suporte de TI com foco em SLA, produtividade e risco. Ela ajuda times de help desk, service desk e centrais de atendimento a operar com mais previsibilidade, governança e isolamento por empresa. ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-- [SecOps-Dashboard](https://github.com/fernando-msa/SecOps-Dashboard) — Centro de Operações de Segurança (SOC) — Gerenciamento centralizado de eventos de segurança, rastreamento de vulnerabilidades, manuais de resposta a incidentes e monitoramento de conformidade. ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 - [tradutor-msa](https://github.com/fernando-msa/tradutor-msa) — 🚀 Extensão leve e segura para tradução instantânea. Disponível para Edge, Chrome e Firefox ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-- [finctrl](https://github.com/fernando-msa/finctrl) — Aplicação web para controle e organização de dados financeiros. ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-- [InfraCare](https://github.com/fernando-msa/InfraCare) — Plataforma web de operação hospitalar para monitoramento de ativos, incidentes, tickets, checklists, SLA, auditoria, status de serviços e relatórios. ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-- [gmail-chamados-archiver](https://github.com/fernando-msa/gmail-chamados-archiver) — Chamados archiver ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-- [gmail-nf-archiver](https://github.com/fernando-msa/gmail-nf-archiver) — Arquivamento NF ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-- [bacula-log-archiver](https://github.com/fernando-msa/bacula-log-archiver) — Automação para capturar logs de backup do Bacula recebidos via Gmail, convertê-los em PDFs estilizados e organizá-los automaticamente no Google Drive. ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 </details>
 

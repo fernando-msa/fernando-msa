@@ -9,7 +9,7 @@ const USERNAME = 'fernando-msa';
 const GRUPO_FJJ_PROJECTS = [
   {
     name: 'FJJ Soluções Tecnológicas (Portal & Portfólio)',
-    repoUrl: 'https://github.com/FJJGroup/FJJ_portfolio',
+    repoUrl: '', // repositório privado: sem link público
     liveUrl: 'https://grupofjj.com.br/',
     description:
       'Portal institucional oficial e showcase corporativo da software house. Arquitetura multi-páginas de alta performance desenvolvida com Vite, Tailwind CSS, partículas neurais interativas em Canvas 2D, efeitos 3D tilt e SEO técnico avançado (Schema.org JSON-LD).',
@@ -18,7 +18,7 @@ const GRUPO_FJJ_PROJECTS = [
   },
   {
     name: 'FJJ PDV',
-    repoUrl: 'https://github.com/FJJGroup/FJJ_PDV',
+    repoUrl: '', // repositório privado: sem link público
     liveUrl: 'https://pdv.grupofjj.com.br/',
     demoUrl: 'https://pdv.grupofjj.com.br/app',
     description:
@@ -28,7 +28,7 @@ const GRUPO_FJJ_PROJECTS = [
   },
   {
     name: 'FJJ Connect',
-    repoUrl: 'https://github.com/FJJGroup/FJJ_Connect',
+    repoUrl: '', // repositório privado: sem link público
     liveUrl: 'https://connect.grupofjj.com.br/',
     description:
       'Plataforma SaaS de IA Conversacional para Instagram e qualificação inteligente de leads comerciais. Integração 100% oficial com Meta Graph API, agente autônomo baseado em Google Gemini 1.5 Flash, atendimento em tempo real com live chat e hand-off humano, quick replies, gatilhos de stories e webhooks CRM.',
@@ -57,10 +57,14 @@ const FEATURED_NAMES = new Set([
   'secpolicy-hama',
   'auxilia-app',
   'mob-app',
+  'Billings-Life---M-todo-de-Ovula-o-Billings',
   'infrapulse-social',
   'InfraPulse-Social',
   'prime-pet',
   'HelpDesk-SergipeTec',
+  'opsboard',
+  'firewallwatch',
+  'hama-apps-script-automations',
 ]);
 
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
@@ -196,19 +200,33 @@ while architecting scalable SaaS platforms, AI systems and offline-first softwar
 
 ${fjjSection}
 
+#### 📈 B2B SaaS
+
+- **[opsboard](https://github.com/fernando-msa/opsboard)**
+  Multi-tenant B2B SaaS for SLA monitoring, incident management and public status pages — organization-scoped data isolation, JWT auth with Google SSO, ticket SLA tracking and per-organization status pages.
+  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
 #### 🏥 Enterprise Infrastructure & Healthcare
 
-- **[metrics-compliance-agent](https://github.com/fernando-msa)**  
+- **[windows-compliance-agent](https://github.com/fernando-msa/windows-compliance-agent)**
   Production compliance and metrics verification agent for Windows Servers at HAMA, integrating PowerShell, Next.js/Supabase backend, real-time dashboard, GLPI webhooks, and ISO 27001 audit PDF export.  
   ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 
-- **[terraform-hama-iac-governance](https://github.com/fernando-msa)**  
+- **[terraform-hama-iac-governance](https://github.com/fernando-msa/terraform-hama-iac-governance)**
   Portfolio project translating HAMA's paper-based governance controls into AWS infrastructure code — tagging, IAM, S3 backup, CloudWatch SLA monitoring, rack access audit trails, and a Python Lambda for Wi-Fi checks.  
   ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 - **[secpolicy-hama](https://github.com/fernando-msa/secpolicy-hama)** — [Live](https://secpolicy-hama.vercel.app)  
-  Information security policy checklist tool aligned with ISO/IEC 27001, featuring PDF export and localStorage persistence.  
+  Information security policy checklist tool aligned with ISO/IEC 27001, featuring PDF export and localStorage persistence.
   ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[firewallwatch](https://github.com/fernando-msa/firewallwatch)**
+  Firewall log analysis platform: parses iptables/pfSense, Cisco ASA, Fortinet/FortiGate and generic CSV logs, flags suspicious IPs and attack patterns, computes a 0–100 risk score and exports PDF reports.
+  ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+
+- **[hama-apps-script-automations](https://github.com/fernando-msa/hama-apps-script-automations)**
+  Google Apps Script automations that turn Gmail into organized Google Drive archives: Bacula backup logs as PDF, supplier invoices by year/month/vendor, and service-desk tickets from Rasptelles, Ksys and SMED.
+  ![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=flat-square&logo=google&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 #### 🌐 Web Apps & Community
 
@@ -216,7 +234,7 @@ ${fjjSection}
   Next.js 15 PWA for the Salesian Movimento Auxilia Brasil, with Supabase RLS across three modules (PSA, Together, Missões).  
   ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
-- **[mob-app](https://github.com/fernando-msa/mob-app)** — [Live](https://mob-app-five.vercel.app)  
+- **[Billings Life](https://github.com/fernando-msa/Billings-Life---M-todo-de-Ovula-o-Billings)** — [Live](https://mob-app-five.vercel.app)
   Next.js 14 PWA for the Billings Ovulation Method, with Supabase auth, VAPID push notifications, and cron-based reminders.  
   ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
@@ -284,8 +302,8 @@ async function main() {
 
   console.log(`Fetched ${allRepos.length} repos.`);
 
-  // Filtra repositórios ignorados e forks
-  const repos = allRepos.filter((r) => !SKIP.includes(r.name) && !r.fork);
+  // Filtra repositórios ignorados, forks e arquivados
+  const repos = allRepos.filter((r) => !SKIP.includes(r.name) && !r.fork && !r.archived);
 
   // Repositórios não destacados na seção principal, ordenados pelo último push
   const otherRepos = repos
