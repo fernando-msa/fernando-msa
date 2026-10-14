@@ -80,7 +80,7 @@ while architecting scalable SaaS platforms, AI systems and offline-first softwar
   Next.js 15 PWA for the Salesian Movimento Auxilia Brasil, with Supabase RLS across three modules (PSA, Together, Missões).  
   ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
-- **[Billings Life](https://github.com/fernando-msa/billings-life)** — [Live](https://mob-app-five.vercel.app)
+- **[Billings Life](https://github.com/fernando-msa/billings-life)**
   Next.js 14 PWA for the Billings Ovulation Method, with Supabase auth, VAPID push notifications, and cron-based reminders.  
   ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
